@@ -17,11 +17,11 @@ Please refer to the shared files for more information about specific PCB. I have
 Repository Contents
 -------------------
 
-👩‍🚀 **[.STL Files ](Bluetooth-Speaker/STL-Files)** • The **Bluetooth-Speaker** components in STL format (probably what you are looking for to 3d print)
+👩‍🚀 **[.STL Files ](STL-Files)** • The **Bluetooth-Speaker** components in STL format (probably what you are looking for to 3d print)
 
-🔉 **[Hardware](packages/Hardware)** • The internal PCBs files (Gerber, Schematic) 
+🔉 **[Hardware](Hardware)** • The internal PCBs files (Gerber, Schematic) 
 
-💻 **[Software](packages/Software)** • Codes and Libraries for use with the **Bluetooth-Speaker**
+💻 **[Software](Software)** • Codes and Libraries for use with the **Bluetooth-Speaker**
 
-📄 **[Documentation](packages/Documentation)** • Data sheets, other references
+📄 **[Documentation](Documentation)** • Data sheets, other references
 
