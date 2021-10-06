@@ -57,4 +57,4 @@ Software:
 **Cura**
 
 Notes:
-The Ender-3 plate in Cura won't fit the Main body, so we have to extend the plate dimensions by a bit from Cure settings. Also, enable ironing choice
+The Ender-3 plate in Cura won't fit the Main body, so we have to extend the plate dimensions by a bit from Cura settings. Also, enable ironing choice for smother finishing 
