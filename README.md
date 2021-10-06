@@ -3,5 +3,8 @@ A fully function Bluetooth Speaker implement most of the new ICs chip. The desig
 
 
 
+[![🎨 📐 FUSION 360](https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/17f682c999b066592231352874ba1360/large.jpg)](https://a360.co/3uLzq06)
 
-🎨 📐 https://a360.co/3uLzq06
+
+
+[*🎨 📐View on FUSION 360*](https://a360.co/3uLzq06)
