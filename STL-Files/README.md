@@ -2,6 +2,22 @@
 You can find the project pics on
 [ONLINE GALLERY](https://gallery.autodesk.com/projects/163650/bluetooth-speaker-15) or [GrabCad](https://grabcad.com/library/bluetooth-speaker-30)
 
+[*🎨 📐View and Download on FUSION 360*](https://a360.co/3uLzq06)
+
+Downloadable formats:
+
+**STL**
+
+**FBX**
+
+**STEP**
+
+**DWG**
+
+**DXF**
+
+**OBJ**
+
 # Print Settings
 [![CURA SETTINGS](https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/bf1bb8de8e640c9326b2112975e42ba8/large.png
 )](https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/bf1bb8de8e640c9326b2112975e42ba8/large.png)
@@ -14,7 +30,7 @@ Printer:
 **Ender-3**
 
 Rafts:
-Doesn't Matter
+**Doesn't Matter**
 
 Supports:
 **YES**
