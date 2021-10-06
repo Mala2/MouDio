@@ -1,5 +1,10 @@
 # Bluetooth-Speaker
-A fully function Bluetooth Speaker implement most of the new ICs chip. The design consists of four PCBs and 3 microcontrollers. I build and test all the PCBs and they work as expected so the hardware design is done. However, the software part is still under process. Please refer to the zip file for more information about specific PCBs. I have also included any software needed to program the microcontrollers.
+
+A fully function Bluetooth Speaker implement most of the new ICs chip.
+
+The design consists of four PCBs and 3 microcontrollers. I build and test all the PCBs and they work as expected so the hardware design is done. **However, the software part is still under process.**
+
+Please refer to the shared files for more information about specific PCB. I have also included any software needed to program the microcontrollers.
 
 
 
@@ -8,3 +13,15 @@ A fully function Bluetooth Speaker implement most of the new ICs chip. The desig
 
 
 [*🎨 📐View on FUSION 360*](https://a360.co/3uLzq06)
+
+Repository Contents
+-------------------
+
+👩‍🚀 **[.STL Files ](Bluetooth-Speaker/STL-Files)** • The **Bluetooth-Speaker** components in STL format (probably what you are looking for to 3d print)
+
+🔉 **[Hardware](packages/Hardware)** • The internal PCBs files (Gerber, Schematic) 
+
+💻 **[Software](packages/Software)** • Codes and Libraries for use with the **Bluetooth-Speaker**
+
+📄 **[Documentation](packages/Documentation)** • Data sheets, other references
+
