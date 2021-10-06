@@ -25,4 +25,4 @@ Repository Contents
 
 📄 **[Documentation](Documentation)** • Data sheets, other references
 
-🎥 📄 **[Video](Video)** • Demonstration videos of the final project
+🎥 **[Video](Video)** • Demonstration videos of the final project
