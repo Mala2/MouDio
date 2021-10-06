@@ -1,4 +1,4 @@
-** Please note this PCB still under work for updtated version
+** Please note this PCB still under work for updated version
 
 BACK
 -------------------
