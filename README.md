@@ -14,6 +14,14 @@ Please refer to the shared files for more information about specific PCB. I have
 
 [*🎨 📐View on FUSION 360*](https://a360.co/3uLzq06)
 
+Features
+-------------------
+* **Amplifier** - The Texas Instruments® **TPA3130D2** Which has low distrition can output 2 × 15 W Into a 8-Ω BTL Load
+* **Connectivity** - Qualcomm® **CSR8675** - **Bluetooth V5.0** Support HSP, HFP, A2DP, AVRCP, PBAP,MAP,SPP,BLE profile - Coverage up to 15m - **True Wireless Stereo** to share BT audio stream between two Speakers - **Wired** analog input
+* **Power** - Accept **USB PD** Delivery **5 to 24V** - **Fast Charging** in 3 hours - **USB A** Capable of **15W-5V,3A** - **Low idle power** consumption - A**10-hour** battery life - **5000mAh** battery capacity.
+
+
+
 Repository Contents
 -------------------
 
