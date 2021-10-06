@@ -1,4 +1,5 @@
 # Bluetooth-Speaker
+**⚠  This project is currently still under development. ⚠️**
 
 A fully function Bluetooth Speaker implement most of the new ICs chip.
 
