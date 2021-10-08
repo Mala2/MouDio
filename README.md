@@ -66,8 +66,10 @@ Repository Contents
 To Do List
 -------------------
 
-* **Minimize the use of microcontrollers as the esp32 can handle much of the work done by atmegas.**
-* **Battery efficiency is critical here so using every possible way to reduce the consumption is needed.**
-* **The front PCB can only display time. I wanted to display weather temperature too with the help of ESP32.**
+🔴 **Minimize the use of microcontrollers as the esp32 can handle much of the work done by atmegas.**
+	
+🔴 **Battery efficiency is critical here so using every possible way to reduce the consumption is needed.**
+	
+🔴 **The front PCB can only display time. I wanted to display weather temperature too with the help of ESP32.**
 
 
