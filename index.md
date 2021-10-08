@@ -1,6 +1,6 @@
 # Bluetooth-Speaker
 <p align="center">
-**⚠  This project is currently still under development. ⚠️**
+** This project is currently still under development. ⚠️**
 
 <p align="center">
    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Arduino_Logo.svg/2560px-Arduino_Logo.svg.png"  width=200>  
@@ -22,6 +22,8 @@
         	<img src="https://img.shields.io/twitter/follow/Muhammadalali.svg?style=social&logo=twitter"
            	 alt="follow on Twitter"></a>
  
+### Documentation
+
 A fully function Bluetooth Speaker implement most of the new ICs chip.
 
 The design consists of four PCBs (MAIN, USB-C, FRONT, TOP) and 3 microcontrollers. I build and test all the PCBs and they work as expected so the hardware design is done. **However, the software part is still under process.**
@@ -35,7 +37,7 @@ Please refer to the shared files for more information about specific PCB. I have
 
 [*🎨 📐View on FUSION 360*](https://a360.co/3uLzq06)
 
-Features
+### Features
 -------------------
 * **Amplifier** - The Texas Instruments® **TPA3130D2** Which has low distrition can output 2 × 15 W Into a 8-Ω BTL Load
 * **Connectivity** - The [*FSC-BT806 Feasycom*](https://github.com/Mala2/FSC-BT806) features 
@@ -44,7 +46,7 @@ Features
 
 * **Arduino IDE Programmable Bluetooth-Speaker**
 
-Repository Contents
+### Repository Contents
 -------------------
 
 👩‍🚀 **[.STL Files ](STL-Files)** • The **Bluetooth-Speaker** components in STL format (probably what you are looking for to 3d print)
@@ -58,4 +60,41 @@ Repository Contents
 🎥 **[Video](Video)** • Demonstration videos of the final project
 
 
+## Bluetooth-Speaker
 
+
+You can use the [editor on GitHub](https://github.com/Mala2/Bluetooth-Speaker/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+
+Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+
+### Markdown
+
+Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+
+```markdown
+Syntax highlighted code block
+
+# Header 1
+## Header 2
+### Header 3
+
+- Bulleted
+- List
+
+1. Numbered
+2. List
+
+**Bold** and _Italic_ and `Code` text
+
+[Link](url) and ![Image](src)
+```
+
+For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+
+### Jekyll Themes
+
+Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Mala2/Bluetooth-Speaker/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+
+### Support or Contact
+
+Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
