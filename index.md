@@ -9,6 +9,8 @@
 
 </p>
 <p align="center">
+	<a href="https://github.com/Mala2/Bluetooth-Speaker/repo-size" alt="repo-size">
+		<img src="https://img.shields.io/github/repo-size/Mala2/Bluetooth-Speaker.svg" /></a>
 	<a href="https://github.com/Mala2/Bluetooth-Speaker/issues" alt="Issues">
 		<img src="https://img.shields.io/github/issues/Mala2/Bluetooth-Speaker.svg" /></a>
 	<a href="https://github.com/sparkfun/Qwiic_SerLCD_Py/blob/master/LICENSE" alt="License">
@@ -21,6 +23,11 @@
 	<a href="https://twitter.com/intent/follow?screen_name=Muhammadalali">
         	<img src="https://img.shields.io/twitter/follow/Muhammadalali.svg?style=social&logo=twitter"
            	 alt="follow on Twitter"></a>
+	<a href="https://github.com/Mala2">
+        	<img src="https://img.shields.io/github/followers/mala2?style=social"/></a>
+	<a href="https://github.com/Mala2/Bluetooth-Speaker/stargazers" alt="stars">
+		<img src="https://img.shields.io/github/stars/mala2/Bluetooth-Speaker?style=social" /></a>
+	
  
 ## Documentation
 
