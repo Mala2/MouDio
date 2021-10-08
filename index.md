@@ -22,7 +22,7 @@
         	<img src="https://img.shields.io/twitter/follow/Muhammadalali.svg?style=social&logo=twitter"
            	 alt="follow on Twitter"></a>
  
-### Documentation
+## Documentation
 
 A fully function Bluetooth Speaker implement most of the new ICs chip.
 
