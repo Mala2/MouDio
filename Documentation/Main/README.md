@@ -5,7 +5,7 @@
   
 This PCB has the amplifier, boost converters and Bluetooth module BT-806 and Atmega328 uC.
   
-Amplifier (TPA3130 OR TPA3129)
+🔴 Amplifier (TPA3130 OR TPA3129)
 -------------------
   The reason behind this choice contains a lot of factors. There was many potential Amplifiers for this design. Including:
 - 🔹Texas instruments- TPA3130, TPA3116, TPA3129
@@ -93,3 +93,7 @@ Final Decision
 		<img src="https://img.shields.io/badge/Winner-TPA3130 OR TPA3129-yellow.svg" /></a>
   
  TPA3130 and TPA3129 Both have the same footprint which make it easier to populate either one. The difference is that TPA3129 has **Low idle power** consumption. Both are capable of outputing 30W , 2X15W. 
+
+	
+🔴 Boost Converter (LM3481)
+-------------------
