@@ -8,7 +8,7 @@ This PCB has the amplifier, boost converters and Bluetooth module BT-806 and Atm
 Amplifier (TPA3130 OR TPA3129)
 -------------------
   The reason behind this choice contains a lot of factors. There was many potential Amplifiers for this design. Including:
-- Texas instruments- TPA3130, TPA3116, TPA3129
+- 🔹Texas instruments- TPA3130, TPA3116, TPA3129
 - Analog Devices- SSM2306
 - Diodes Incorporated- PAM8403
 - Maxim Integrated- MAX98306, MAX9736,
@@ -27,7 +27,7 @@ To choose the suitable one I considered the key measurements are:
 
 For the SNR (Signal-to-noise ratio):
   
-1. TPA3116, TPA3130 **102db**
+1. 🔹TPA3116, TPA3130 **102db**
 2. MAX98306 ➡️ **99db**
 3. SSM2302 ➡️ **98db**
 4. MAX9736 ➡️ **97db**
@@ -42,7 +42,7 @@ For the PSRR (Power supply rejection ratio):
   
 For the Efficiency:
 1. MAX98306 ➡️ **92\%**
-2. TPA3130 ➡️ **90\%**
+2. 🔹TPA3130 ➡️ **90\%**
 3. MAX9736 ➡️ **88\%**
 4. PAM8403 ➡️ **87\%**
 5. SSM2301 ➡️ **85\%**
@@ -57,7 +57,7 @@ No available data for the rest
  For the  Quiescent current:
 
 1. MAX98306 ➡️ **2 mA**
-2. TPA3130 ➡️ **4 mA**
+2. 🔹TPA3130 ➡️ **4 mA**
 3. PAM8403 ➡️ **16 mA**
 4. MAX9736 ➡️ **30 mA**
 5. TPA3116 ➡️ **32 mA**
@@ -70,7 +70,7 @@ For the Output noise:
 
 1. MAX98306 ➡️ **29uV**
 2. SSM2302 ➡️ **35uV**
-3. TPA3130 ➡️ **65uV**
+3. 🔹TPA3130 ➡️ **65uV**
 4. MAX9736, PAM8403 ➡️ **100uV**
   
   
@@ -78,7 +78,7 @@ For the Output noise:
   
 Lastly the Crosstalk:  
 1. MAX98306 
-2. TPA3130 
+2. 🔹TPA3130 
 3. SSM2302 
 4. MAX9736 
 5. PAM8403 
