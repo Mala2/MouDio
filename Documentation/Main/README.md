@@ -25,23 +25,40 @@ To choose the suitable one I considered the key measurements are:
 - Output noise
 - Crosstalk
 
-For the SNR (Signal-to-noise ratio)
+For the SNR (Signal-to-noise ratio):
   
 1. TPA3116, TPA3130 **102db**
-2. MAX98306 **99db**
-3. SSM2302  **98db**
-4. MAX9736  **97db**
-5. PAM8403  **80db**
+2. MAX98306 ➡️ **99db**
+3. SSM2302 ➡️ **98db**
+4. MAX9736 ➡️ **97db**
+5. PAM8403 ➡️ **80db**
   
 **Clearly the winer here is TPA3130, TPA3116**
   
   
-For the PSRR (Power supply rejection ratio)
+For the PSRR (Power supply rejection ratio):
   
-  TPA3130 along with MAX98306 has the best performance 
+**TPA3130 along with MAX98306 has the best performance**
   
+For the Efficiency:
+1. MAX98306 ➡️ **92\%**
+2. TPA3130 ➡️ **90\%**
+3. MAX9736 ➡️ **88\%**
+4. PAM8403 ➡️ **87\%**
+5. SSM2301 ➡️ **85\%**
+
+**Again TPA3130 along with MAX98306 has the best performance**
   
-  
+For the CMRR (Common-mode rejection ratio):
+1. MAX98306 ➡️ **79db**
+
+ For the  Quiescent current:
+
+1. MAX98306 2 mA
+2. TPA3130 3.5 mA
+3. PAM8403 16 mA
+4. MAX9736 30 mA
+5. TPA3116 32 mA
   
   
   
