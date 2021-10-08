@@ -54,11 +54,11 @@ For the CMRR (Common-mode rejection ratio):
 
  For the  Quiescent current:
 
-1. MAX98306 2 mA
-2. TPA3130 3.5 mA
-3. PAM8403 16 mA
-4. MAX9736 30 mA
-5. TPA3116 32 mA
+1. MAX98306 ➡️ **2 mA**
+2. TPA3130 ➡️ **4 mA**
+3. PAM8403 ➡️ **16 mA**
+4. MAX9736 ➡️ **30 mA**
+5. TPA3116 ➡️ **32 mA**
   
   
   
