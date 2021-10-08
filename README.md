@@ -26,7 +26,7 @@ A fully function Bluetooth Speaker implement most of the new ICs chip.
 
 The design consists of four PCBs (MAIN, USB-C, FRONT, TOP) and 3 microcontrollers. I build and test all the PCBs and they work as expected so the hardware design is done. **However, the software part is still under process.**
 
-Please refer to the shared files for more information about specific PCB. I have also included any software needed to program the microcontrollers.
+Please refer to the shared files for more information about specific PCB.
 
 
 [![🎨 📐 FUSION 360](https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/17f682c999b066592231352874ba1360/large.jpg)](https://a360.co/3uLzq06)
