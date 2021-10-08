@@ -25,7 +25,7 @@ To choose the suitable one I considered the key measurements are:
 - Output noise
 - Crosstalk
 
-For the SNR 
+For the SNR (Signal-to-noise ratio)
   
 1. TPA3116, TPA3130 **102db**
 2. MAX98306 **99db**
@@ -36,7 +36,22 @@ For the SNR
 **Clearly the winer here is TPA3130, TPA3116**
   
   
-For the PSRR 
+For the PSRR (Power supply rejection ratio)
+  
+  TPA3130 along with MAX98306 has the best performance 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   Both have the same footprint which make it easier to populate either one. The difference is that TPA3129 has **Low idle power** consumption. Both are capable of outputing 30W , 2X15W. 
