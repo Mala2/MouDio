@@ -21,7 +21,7 @@ To choose the suitable one I considered the key measurements are:
 - Efficiency
 - CMRR
 - Quiescent current
-- THD+NOISE(half power)
+- THD+NOISE
 - Output noise
 - Crosstalk
 
@@ -51,7 +51,9 @@ For the Efficiency:
   
 For the CMRR (Common-mode rejection ratio):
 1. MAX98306 ➡️ **79db**
-
+  
+No available data for the rest
+  
  For the  Quiescent current:
 
 1. MAX98306 ➡️ **2 mA**
@@ -60,15 +62,34 @@ For the CMRR (Common-mode rejection ratio):
 4. MAX9736 ➡️ **30 mA**
 5. TPA3116 ➡️ **32 mA**
   
+For the THD+NOISE:
+  
+**Most of the amplifiers has approximately the same results.**
+
+For the Output noise:
+
+1. MAX98306 ➡️ **29uV**
+2. SSM2302 ➡️ **35uV**
+3. TPA3130 ➡️ **65uV**
+4. MAX9736, PAM8403 ➡️ **100uV**
   
   
+**We can see how **MAX98306** has a good performance**
   
+Lastly the Crosstalk:  
+1. MAX98306 
+2. TPA3130 
+3. SSM2302 
+4. MAX9736 
+5. PAM8403 
   
+**Again TPA3130 along with MAX98306 has the best performance**
+
+Final Decision  
+-------------------
   
+**MAX98306 and (TPA3130 OR TPA3129) has the best results even though MAX98306 is better I would rather choose (TPA3130 OR TPA3129) for the output power reaching 30W in Mono setup and 2X15W in Stereo setup while MAX98306 can only output 3.7W which wasn’t enough for this Design.**
+	<a href="https://www.ti.com/product/TPA3130D2" alt="repo-size">
+		<img src="https://img.shields.io/badge/Winner-TPA3130 OR TPA3129-yellow.svg" /></a>
   
-  
-  
-  
-  
-  
-  Both have the same footprint which make it easier to populate either one. The difference is that TPA3129 has **Low idle power** consumption. Both are capable of outputing 30W , 2X15W. 
+ TPA3130 and TPA3129 Both have the same footprint which make it easier to populate either one. The difference is that TPA3129 has **Low idle power** consumption. Both are capable of outputing 30W , 2X15W. 
