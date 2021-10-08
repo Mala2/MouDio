@@ -25,9 +25,8 @@
            	 alt="follow on Twitter"></a>
 	<a href="https://github.com/Mala2">
         	<img src="https://img.shields.io/github/followers/mala2?style=social"/></a>
-           	 
-	
-
+	<a href="https://github.com/Mala2/Bluetooth-Speaker/stars" alt="stars">
+		<img src="https://img.shields.io/github/stars/mala2/Bluetooth-Speaker?style=social" /></a>
 	
 	
 A fully function Bluetooth Speaker implement most of the new ICs chip.
