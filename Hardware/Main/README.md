@@ -1,5 +1,6 @@
-** Please note this PCB still under work for updated version
-
+<p align="center">
+**⚠  This PCB is currently still under development. ⚠️**
+  
 FRONT
 -------------------
 
