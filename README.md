@@ -28,7 +28,6 @@ The design consists of four PCBs (MAIN, USB-C, FRONT, TOP) and 3 microcontroller
 
 Please refer to the shared files for more information about specific PCB.
 
-
 [![🎨 📐 FUSION 360](https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/17f682c999b066592231352874ba1360/large.jpg)](https://a360.co/3uLzq06)
 
 
