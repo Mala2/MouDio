@@ -117,7 +117,7 @@ Other alternatives I am considering on future updates are:
 	
 The Bluetooth module is critical piece of the design, a lot of thoughts went into this. Feasycom has a great module which integrate the Qualcomm® CSR8675 - Bluetooth V5.0 Support HSP, HFP, A2DP, AVRCP, PBAP,MAP,SPP,BLE profile - Coverage up to 15m - True Wireless Stereo to share BT audio stream between two Speakers - Wired analog input.
 	
-This chip can output stero mode with high sound quality, plus it is easy to program which I did not get deep into. I was able to change the Bluetooth discoverable name as I wish. Through **TX/RX** pins it can communicate to other microcontrollers. I for sure haven’t used all the potential futures this Module can offer due to my luck of coding experience. Otherwise this chip is a uC can be the master mind to control all this chips this design need through I2C, PIOs, AIOs and LEDs for status indications (Low Battery, Bluetooth Status)
+This chip can output stero mode with high sound quality, plus it is easy to program which I did not get deep into. I was able to change the Bluetooth discoverable name as I wish. Through **TX/RX** pins it can communicate to other microcontrollers. I for sure haven’t used all the potential futures this Module can offer due to my luck of coding experience. Otherwise this chip is a uC and can be the master mind to control all this chips this design needs through I2C, PIOs, AIOs and LEDs for status indications (Low Battery, Bluetooth Status). Also, it can charges the battery with 250mA which wasn’t practical in this design since it has 5000mAh battery which will take up to 20 Hours for full charge. However, it would be suitable for smaller Speaker design.
 	
 	
 	
