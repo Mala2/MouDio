@@ -5,7 +5,8 @@
   
 This PCB has the amplifier, boost converters and Bluetooth module BT-806 and Atmega328 uC.
   
-🔴 Amplifier (TPA3130 OR TPA3129)
+🔴 Amplifier (TPA3130 OR TPA3129)	<a href="https://www.ti.com/product/TPA3130D2" alt="repo-size">
+		<img src="https://img.shields.io/badge/Chip-TPA3130 OR TPA3129-yellow.svg" /></a>
 -------------------
   The reason behind this choice contains a lot of factors. There was many potential Amplifiers for this design. Including:
 - 🔹Texas instruments- TPA3130, TPA3116, TPA3129
@@ -89,11 +90,41 @@ Final Decision
 -------------------
   
 **MAX98306 and (TPA3130 OR TPA3129) has the best results even though MAX98306 is better I would rather choose (TPA3130 OR TPA3129) for the output power reaching 30W in Mono setup and 2X15W in Stereo setup while MAX98306 can only output 3.7W which wasn’t enough for this Design.**
-	<a href="https://www.ti.com/product/TPA3130D2" alt="repo-size">
-		<img src="https://img.shields.io/badge/Winner-TPA3130 OR TPA3129-yellow.svg" /></a>
-  
+
+	
  TPA3130 and TPA3129 Both have the same footprint which make it easier to populate either one. The difference is that TPA3129 has **Low idle power** consumption. Both are capable of outputing 30W , 2X15W. 
 
 	
-🔴 Boost Converter (LM3481)
+🔴 Boost Converter (LM3481)	<a href="https://www.ti.com/product/LM3481" alt="repo-size">
+		<img src="https://img.shields.io/badge/Chip-LM3481-yellow.svg" /></a>	
 -------------------
+Since the System is adopting 3.7V output rail out from the battery (USB-C) PCB. It needs a Boost Converter that can accept and work on this low voltage. The **LM3481** is capable of accepting as low as 3V and up to 12V at 2.5A resulting 30W to satisfy the amplifier load. The efficiency on this Configuration could reach up to 87%
+	
+Topology: BOOST
+Frequency:410Khz (The higher the smaller components can be used maximizing the use of the PCB area)
+
+The only downside is the EN pin has to be driven **low** to enable the chip
+	
+Other alternatives I am considering on future updates are:
+	
+- TPS61288
+- MP3432
+	
+🔴 Bluetooth module (BT-806)   <a href="https://www.feasycom.net/dual-mode-bluetooth-module/bluetooth-5-0-csr8675-aptx-audio-module-fsc.html
+" alt="repo-size">
+		<img src="https://img.shields.io/badge/Chip-BT 806-yellow.svg" /></a>	
+-------------------
+	
+The Bluetooth module is critical piece of the design, a lot of thoughts went into this. Feasycom has a great module which integrate the Qualcomm® CSR8675 - Bluetooth V5.0 Support HSP, HFP, A2DP, AVRCP, PBAP,MAP,SPP,BLE profile - Coverage up to 15m - True Wireless Stereo to share BT audio stream between two Speakers - Wired analog input.
+	
+This chip can output stero mode with high sound quality, plus it is easy to program which I did not get deep into. I was able to change the Bluetooth discoverable name as I wish. Through **TX/RX** pins it can communicate to other microcontrollers. I for sure haven’t used all the potential futures this Module can offer due to my luck of coding experience. Otherwise this chip is a uC can be the master mind to control all this chips this design need through I2C, PIOs, AIOs and LEDs for status indications (Low Battery, Bluetooth Status)
+	
+	
+	
+	
+	
+	
+	
+	
+	
+ 	
