@@ -39,7 +39,7 @@ Please refer to the shared files for more information about specific PCB.
 
 
 
-[*🎨 📐View on FUSION 360*](https://a360.co/3uLzq06)
+[*🎨 📐 View on FUSION 360*](https://a360.co/3uLzq06)
 
 Features
 -------------------
