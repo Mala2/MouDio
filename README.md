@@ -63,6 +63,8 @@ Repository Contents
 
 🎥 **[Video](Video)** • Demonstration videos of the final project
 
+🎥 **[Prototype](Prototype)** • Evaluation board, Cases, etc...
+
 To Do List
 -------------------
 
