@@ -94,7 +94,7 @@ Final Decision
 	
  TPA3130 and TPA3129 Both have the same footprint which make it easier to populate either one. The difference is that TPA3129 has **Low idle power** consumption. Both are capable of outputing 30W , 2X15W. 
 
-	🔺 **TAS5825M** Will be the upgrade of the (TPA3130 OR TPA3129) since it has lower distortion  and built in DSP (Digital Signal Processing), plus it can output 38-W stereo which is more than enough. Only draw back is it does needs uC to configure it. 
+	🔺 **TAS5825M OR TAS5825P** Will be the upgrade of the (TPA3130 OR TPA3129) since it has lower distortion and built in DSP (Digital Signal Processing), plus it can output 38-W stereo which is more than enough. Only draw back is it does needs uC to configure it. 
 
 	
 🔴 Boost Converter (LM3481)	<a href="https://www.ti.com/product/LM3481" alt="repo-size">
