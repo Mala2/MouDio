@@ -3,3 +3,9 @@
 Stereo-channel, 32-bit, 192-kHz, audio analog-to-digital converter (ADC) with 113-dB SNR
 
 The **FSC-BT806** can output analog which can be fed to the **PCM1820** ADC to output 32-bits, 2-channel I2S/TDM then that can be fed to amplifier **TAS5825M**
+
+
+
+
+[![🎨 📐 FUSION 360](https://www.ti.com/ds_dgm/images/fbd_sbasa61a.gif)](https://www.ti.com/product/PCM1820)
+
