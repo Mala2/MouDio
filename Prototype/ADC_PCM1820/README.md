@@ -2,7 +2,7 @@
 
 It is an **ADC** with resolution of 32-bit I2S/TDM
 
-The The [*FSC-BT806 Feasycom*](https://github.com/Mala2/FSC-BT806) can output analog which can be fed to the ADC **PCM1820** PCB to output 32-bits, 2-channel I2S/TDM then that can be fed to the amplifier **[TAS5825M](/Prototype/AMP_TAS5825M/)** PCB
+The [*FSC-BT806 Feasycom*](https://github.com/Mala2/FSC-BT806) can output analog which can be fed to the ADC **PCM1820** PCB to output 32-bits, 2-channel I2S/TDM then that can be fed to the amplifier **[TAS5825M](/Prototype/AMP_TAS5825M/)** PCB
 
 I added there diffrent PCBs design for the input capacitor to test diffrent values and Cap materials
 
