@@ -2,7 +2,7 @@
 
 Stereo-channel, 32-bit, 192-kHz, audio analog-to-digital converter (ADC) with 113-dB SNR
 
-The The [*FSC-BT806 Feasycom*](https://github.com/Mala2/FSC-BT806) can output analog which can be fed to the [**PCM1820** ](https://www.ti.com/product/PCM1820) ADC to output 32-bits, 2-channel I2S/TDM then that can be fed to amplifier **[TAS5825M](/Prototype/AMP_TAS5825M/)** PCB
+The The [*FSC-BT806 Feasycom*](https://github.com/Mala2/FSC-BT806) can output analog which can be fed to the [**PCM1820** ](https://www.ti.com/product/PCM1820) ADC to output 32-bits, 2-channel I2S/TDM then that can be fed to the amplifier **[TAS5825M](/Prototype/AMP_TAS5825M/)** PCB
 
 I added there diffrent PCBs design for the input capacitor to test diffrent values and Cap materials
 
@@ -27,5 +27,4 @@ Voltage: 5V choose to populate either **BL9198-33** or **LP5912-3.3** LDO. I pre
 
 
 
-[![🎨 📐 PCM1820](https://www.ti.com/ds_dgm/images/fbd_sbasa61a.gif)](https://www.ti.com/product/PCM1820)
 
