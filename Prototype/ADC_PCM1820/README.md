@@ -16,16 +16,16 @@ Input capacitors
  
 •  **Film TH Caps** P/N: 4.7uF [R75PW447050H3J](https://www.digikey.com/en/products/detail/kemet/R75PW447050H3J/12144250) 
 
-I added a dot • to indicate the right corresponding position
+I added a dot • to indicate the right corresponding position to the main PCB
 
 Those little PCBs can also be mounted as an **Input capacitors** on the **[TAS5825M](/Prototype/AMP_TAS5825M/)** PCB
 
 Power Supply 
 -------------------
-Voltage: 5V choose to populate either **BL9198-33** or **LP5912-3.3** LDO. I prefare the **LP5912-3.3** as LOW IQ and LOW Noise
+Voltage: 5V choose to populate either **BL9198-33** or **LP5912-3.3** LDO. I prefare the **LP5912-3.3** as it has LOW IQ and LOW Noise
 
 
 
 
-[![🎨 📐 FUSION 360](https://www.ti.com/ds_dgm/images/fbd_sbasa61a.gif)](https://www.ti.com/product/PCM1820)
+[![🎨 📐 PCM1820](https://www.ti.com/ds_dgm/images/fbd_sbasa61a.gif)](https://www.ti.com/product/PCM1820)
 
