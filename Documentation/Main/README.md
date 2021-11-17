@@ -103,6 +103,7 @@ Final Decision
 Since the System is adopting 3.7V output rail out from the battery (USB-C) PCB. It needs a Boost Converter that can accept and work on this low voltage. The **LM3481** is capable of accepting as low as 3V and up to 12V at 2.5A resulting 30W to satisfy the amplifier load. The efficiency on this Configuration could reach up to 87%
 	
 Topology: BOOST
+	
 Frequency:410Khz (The higher the smaller components can be used maximizing the use of the PCB area)
 
 The only downside is the EN pin has to be driven **low** to enable the chip
