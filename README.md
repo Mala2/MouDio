@@ -93,7 +93,9 @@ Schematic
 Working Principal
 -------------------
 1.	First, I am going to use the TPR54 to turn ON/OFF the system atmega328 [I/O_2] if it pressed for >2s  . This module can send either active High/Low signal output as desire. I will explain later why I need this specific module.
-![image](https://github.com/Mala2/Bluetooth-Speaker/blob/main/STL-Files/Pics/TPR54-.png?raw=true)
+[![image](https://github.com/Mala2/Bluetooth-Speaker/blob/main/STL-Files/Pics/TPR54-.png?raw=true)](https://www.azoteq.com/images/stories/pdf/proxsense_gpio_trackpad_datasheet.pdf)
+
+	
 	
 2.	After the wake up the atmega328 going to send high signal to turn on the LT3042 LDO 3V3 to power the Bluetooth Module BT-806 and the TAS5825 circuitry. 
 
