@@ -1,12 +1,9 @@
 FRONT
 -------------------
 
-[![FRONT](https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/6ba8db136334d9f20665cff26709c720/large.png
-)](https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/6ba8db136334d9f20665cff26709c720/large.png)
+![image](https://user-images.githubusercontent.com/63622787/149172020-fdec45bb-1bfc-45b6-b87f-16b76e82a8c8.png)
 
 BACK
 -------------------
 
-[![BACK](https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/31eb47a154755d2216b5af3fa5e4ed29/large.png
-)](https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/31eb47a154755d2216b5af3fa5e4ed29/large.png)
-
+![image](https://user-images.githubusercontent.com/63622787/149172636-e705cc73-9523-4568-b1e5-cf9036703223.png)
