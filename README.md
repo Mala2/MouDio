@@ -44,7 +44,7 @@ Please refer to the shared files for more information
 [![image](https://user-images.githubusercontent.com/63622787/149161185-76ba31c0-4a93-4759-8a88-698c24c4fad2.png)](https://a360.co/3340jVi)
 
 
-[*🎨 📐 View on FUSION 360*](https://a360.co/3340jVi)
+[*🎨 View on FUSION 360*](https://a360.co/3340jVi)
 
 Features
 -------------------
@@ -78,9 +78,15 @@ Schematic
 	
 ![image](https://user-images.githubusercontent.com/63622787/149163751-7493e482-d3c2-45de-859b-50efd5079e94.png)
 	
+	
+[📐 *View on FUSION 360*](https://a360.co/3FjaXoa)
+
+	
 🟢This is the ****[USB-C](Documentation/USB-C/)**** PCB it contain the **MP2639** - 2S charging IC and The **Atmega328**
 	
 ![image](https://user-images.githubusercontent.com/63622787/149164263-51866652-72fa-4304-86ee-b4834d0e1bf9.png)
+	
+[📐 *View on FUSION 360*](https://a360.co/3fcBBV4)
 
 	
  
