@@ -34,18 +34,20 @@ The design consists of four PCBs (MAIN, USB-C, FRONT, TOP) and 3 microcontroller
 
 Please refer to the shared files for more information about specific PCB.
 
-[![🎨 📐 FUSION 360](https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/17f682c999b066592231352874ba1360/large.jpg)](https://a360.co/3uLzq06)
+[![🎨 📐 FUSION 360](https://github.com/Mala2/Bluetooth-Speaker/blob/main/STL-Files/Pics/Untitled_2022-Jan-09_03-53-40PM-000_CustomizedView25422330560_png.png?raw=true)](https://a360.co/3340jVi)
 
 
 
-[*🎨 📐 View on FUSION 360*](https://a360.co/3uLzq06)
+[*🎨 📐 View on FUSION 360*](https://a360.co/3340jVi)
 
 Features
 -------------------
-* **Amplifier** - The Texas Instruments® **TPA3130D2** Which has low distrition can output 2 × 15 W Into a 8-Ω BTL Load
+* **Amplifier** - 2x  Texas Instruments® [*TAS5825M*](https://www.ti.com/product/TAS5825M) Which has low distrition can output 2 × 30 W, 2.0 Mode (8-Ω, 24 V, THD+N=1%)
 * **Connectivity** - The [*FSC-BT806 Feasycom*](https://github.com/Mala2/FSC-BT806) features 
- Qualcomm® **CSR8675** - **Bluetooth V5.0** Support HSP, HFP, A2DP, AVRCP, PBAP,MAP,SPP,BLE profile - Coverage up to 15m - **True Wireless Stereo** to share BT audio stream between two Speakers - **Wired** analog input
-* **Power** - Accept **USB PD** Delivery **5 to 24V** - **Fast Charging** in 3 hours - **USB A** Capable of **15W-5V,3A** - **Low idle power** consumption - A**10-hour** battery life - **5000mAh** battery capacity
+ Qualcomm® **CSR8675** - **Bluetooth V5.0** Support HSP, HFP, A2DP, AVRCP, PBAP,MAP,SPP,BLE profile - Coverage up to 15m - 2 microphone inputs - **Audio interfaces:** I²S/PCM and SPDIF
+
+
+* **Power** - Accept **USB C IN** Delivery **Up to 2.5A  Charge Current**  - **USB A OUT** Capable of **10W-5V,2A** - **Low idle power** consumption - **5000mAh** battery capacity upgradeable to **10000mAh**
 
 * **Arduino IDE Programmable Bluetooth-Speaker**
 
