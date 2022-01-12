@@ -9,6 +9,3 @@ FRONT
 BACK
 -------------------
 
-[![BACK](https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/797c76d72846c0377390deae2d0703cb/large.png
-)](https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/797c76d72846c0377390deae2d0703cb/large.png)
-
