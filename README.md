@@ -1,6 +1,7 @@
 # Bluetooth-Speaker
 <p align="center">
 **⚠  This project is currently still under development. If you came from Reddit just wait I will organize the files soon ⚠️**
+	
 Discord https://discord.gg/edw5AbDd
 <p align="center">
    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Arduino_Logo.svg/2560px-Arduino_Logo.svg.png"  width=200>  
