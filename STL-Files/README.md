@@ -1,8 +1,6 @@
 
-You can find the project pics on
-[ONLINE GALLERY](https://gallery.autodesk.com/projects/163650/bluetooth-speaker-15) or [GrabCad](https://grabcad.com/library/bluetooth-speaker-30)
 
-[*🎨 📐View and Download on FUSION 360*](https://a360.co/3uLzq06)
+[*🎨 📐View and Download on FUSION 360*](https://a360.co/3340jVi)
 
 Downloadable formats:
 
@@ -19,8 +17,7 @@ Downloadable formats:
 **OBJ**
 
 # Print Settings
-[![CURA SETTINGS](https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/bf1bb8de8e640c9326b2112975e42ba8/large.png
-)](https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/f01ec92a2a6f4701ca4f36704eedba43/original.png)
+![image](https://user-images.githubusercontent.com/63622787/149156036-46abfbb1-32d6-48c7-97a7-41259d08bf90.png)
 
 Printer brand:
 **Creality**
