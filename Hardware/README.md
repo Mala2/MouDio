@@ -16,7 +16,7 @@ Tweeters
 --------------
 [![Tweeters](https://www.parts-express.com/SSP%20Applications/PartsExpress@SuiteCentric/SCA%202019.1/img/275-030_HR_0.default.jpg?resizeid=106&resizeh=1200&resizew=1200)](https://www.parts-express.com/Dayton-Audio-ND20FA-6-3-4-Soft-Dome-Neodymium-Tweeter-275-030?quantity=1&custcol1=Dayton%20Audio%20ND20FA-6%203%2F4%22%20Soft%20Dome%20Neodymium%20Tweeter&custcol_ava_item=275-030&custcol_ava_incomeaccount=General&custcol_ava_upccode=844632000874&custcol_ava_pickup=F&custcol_disableshopping=F)
 
-[*Tweeters*](https://www.parts-express.com/Dayton-Audio-ND20FA-6-3-4-Soft-Dome-Neodymium-Tweeter-275-030?quantity=1&custcol1=Dayton%20Audio%20ND20FA-6%203%2F4%22%20Soft%20Dome%20Neodymium%20Tweeter&custcol_ava_item=275-030&custcol_ava_incomeaccount=General&custcol_ava_upccode=844632000874&custcol_ava_pickup=F&custcol_disableshopping=F) **X2**
+[*ND20FA-6 3/4"*](https://www.parts-express.com/Dayton-Audio-ND20FA-6-3-4-Soft-Dome-Neodymium-Tweeter-275-030?quantity=1&custcol1=Dayton%20Audio%20ND20FA-6%203%2F4%22%20Soft%20Dome%20Neodymium%20Tweeter&custcol_ava_item=275-030&custcol_ava_incomeaccount=General&custcol_ava_upccode=844632000874&custcol_ava_pickup=F&custcol_disableshopping=F) **X2**
 
 
 Chemcast Black LED Acrylic
