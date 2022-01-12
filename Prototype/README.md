@@ -12,4 +12,3 @@ Please refer to the shared files for more information about specific PCB.
 
 
 
-[ 📐 *ALL PCBs*](https://a360.co/3uLzq06)
