@@ -68,10 +68,25 @@ Repository Contents
 
 📄 **[Documentation](Documentation)** • Data sheets, other references
 
-🎥 **[Video](Video)** • Demonstration videos of the final project
-
 🎲 **[Prototype](Prototype)** • Evaluation board, Cases, etc...
 
+	
+	
+Schematic
+-------------------
+🟢This is the ****[Main](Documentation/Main/)**** PCB it contain the **Amplifier** - 2x  Texas Instruments® **TAS5825M** and The **FSC-BT806 Feasycom**
+	
+![image](https://user-images.githubusercontent.com/63622787/149163751-7493e482-d3c2-45de-859b-50efd5079e94.png)
+	
+🟢This is the ****[USB-C](Documentation/USB-C/)**** PCB it contain the **MP2639** - 2S charging IC and The **Atmega328**
+	
+![image](https://user-images.githubusercontent.com/63622787/149164263-51866652-72fa-4304-86ee-b4834d0e1bf9.png)
+
+	
+ 
+	
+	
+	
 To Do List
 -------------------
 
