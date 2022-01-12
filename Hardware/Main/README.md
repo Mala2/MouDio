@@ -1,11 +1,10 @@
 <p align="center">
-**⚠  This PCB is currently still under development. ⚠️**
   
 FRONT
 -------------------
 
-[![FRONT](https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/406df0fcc6033955165331e439d0659e/large.png
-)](https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/406df0fcc6033955165331e439d0659e/large.png)
+![image](https://github.com/Mala2/Bluetooth-Speaker/blob/main/STL-Files/Pics/Main%20pcb1.png?raw=true)
+
 
 BACK
 -------------------
