@@ -36,11 +36,12 @@ A fully function Bluetooth Speaker implement most of the modern features. The go
 So far I have built and tested PCBs as prototypes and they work as expected so the hardware design is mainly done. **However, the software part is still under process. and this is where I need most of the help**
 Please refer to the shared files for more information 	
 	
-	
 
-[![FUSION 360](https://github.com/Mala2/Bluetooth-Speaker/blob/main/STL-Files/Pics/Untitled_2022-Jan-12_07-12-52AM-000_CustomizedView26539564695_png_alpha.png?raw=true)](https://a360.co/3340jVi)
 
-![image](https://user-images.githubusercontent.com/63622787/149151663-79bd8bf4-3a79-4a0b-b944-8a7f3925009b.png)
+
+
+[![image](https://user-images.githubusercontent.com/63622787/149161019-443c6ed5-2b7f-4a77-8a0c-c58f14e8bd33.png)](https://a360.co/3340jVi)
+[![image](https://user-images.githubusercontent.com/63622787/149161185-76ba31c0-4a93-4759-8a88-698c24c4fad2.png)](https://a360.co/3340jVi)
 
 
 [*🎨 📐 View on FUSION 360*](https://a360.co/3340jVi)
