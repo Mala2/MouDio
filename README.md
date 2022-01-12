@@ -28,13 +28,15 @@ Discord https://discord.gg/edw5AbDd
 		<img src="https://img.shields.io/github/stars/mala2/Bluetooth-Speaker?style=social" /></a>
 	
 	
-A fully function Bluetooth Speaker implement most of the new ICs chip.
+	
+A fully function Bluetooth Speaker implement most of the modern features. The goal is to have a High-performance portable Bluetooth speaker. In this speaker, I tried to combine all modern features to have a pure sound and make sure it is easy to build and affordable. Atmega328p at its core, and compatibility with Arduino, MicroPython. Along with BT-806 featuring Qualcomm® CSR8675. And as for the amplifier 2x Texas Instruments® TAS5825M Which has low distortion can output 2 × 30 W. 
 
-The design consists of four PCBs (MAIN, USB-C, FRONT, TOP) and 3 microcontrollers. I build and test all the PCBs and they work as expected so the hardware design is done. **However, the software part is still under process.**
+So far I have built and tested PCBs as prototypes and they work as expected so the hardware design is mainly done. **However, the software part is still under process. and this is where I need most of the help**
+Please refer to the shared files for more information 	
+	
+	
 
-Please refer to the shared files for more information about specific PCB.
-
-[![🎨 📐 FUSION 360](https://github.com/Mala2/Bluetooth-Speaker/blob/main/STL-Files/Pics/Untitled_2022-Jan-09_03-53-40PM-000_CustomizedView25422330560_png.png?raw=true)](https://a360.co/3340jVi)
+[![🎨 📐 FUSION 360](https://github.com/Mala2/Bluetooth-Speaker/blob/main/STL-Files/Pics/Untitled_2022-Jan-12_07-12-52AM-000_CustomizedView26539564695_png_alpha.png?raw=true)](https://a360.co/3340jVi)
 
 
 
@@ -42,7 +44,7 @@ Please refer to the shared files for more information about specific PCB.
 
 Features
 -------------------
-* **Amplifier** - 2x  Texas Instruments® [*TAS5825M*](https://www.ti.com/product/TAS5825M) Which has low distrition can output 2 × 30 W, 2.0 Mode (8-Ω, 24 V, THD+N=1%)
+* **Amplifier** - 2x  Texas Instruments® [*TAS5825M*](https://www.ti.com/product/TAS5825M) Which has low distortion can output 2 × 30 W, 2.0 Mode (8-Ω, 24 V, THD+N=1%)
 * **Connectivity** - The [*FSC-BT806 Feasycom*](https://github.com/Mala2/FSC-BT806) features 
  Qualcomm® **CSR8675** - **Bluetooth V5.0** Support HSP, HFP, A2DP, AVRCP, PBAP,MAP,SPP,BLE profile - Coverage up to 15m - 2 microphone inputs - **Audio interfaces:** I²S/PCM and SPDIF
 
