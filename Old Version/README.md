@@ -5,8 +5,6 @@
 Discord https://discord.gg/edw5AbDd
 <p align="center">
    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Arduino_Logo.svg/2560px-Arduino_Logo.svg.png"  width=200>  
-   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1024px-Python-logo-notext.svg.png"  width=135>   
-   <img src="https://s3.amazonaws.com/adafruit-circuit-python/CircuitPython_Repo_header_logo.png"  width=335>   
 
 </p>
 <p align="center">
