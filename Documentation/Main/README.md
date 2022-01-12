@@ -1,19 +1,13 @@
 
 # Main-PCB
 <p align="center">
-**⚠  This PCB is currently still under development. ⚠️**
 
-This PCB has the amplifier, boost converters and Bluetooth module BT-806 and Atmega328 uC.
+This PCB has the amplifier, and Bluetooth module BT-806 
 
-🔴 Amplifier (TPA3130 OR TPA3129)	<a href="https://www.ti.com/product/TPA3130D2" alt="repo-size">
-		<img src="https://img.shields.io/badge/Chip-TPA3130 OR TPA3129-yellow.svg" /></a>
+🔴 Amplifier (TAS5825)	<a href="https://www.ti.com/product/TAS5825" alt="repo-size">
+		<img src="https://img.shields.io/badge/Chip-TAS5825-yellow.svg" /></a>
 -------------------
-  The reason behind this choice contains a lot of factors. There was many potential Amplifiers for this design. Including:
-- 🔹Texas instruments- TPA3130, TPA3116, TPA3129
-- Analog Devices- SSM2306
-- Diodes Incorporated- PAM8403
-- Maxim Integrated- MAX98306, MAX9736,
-
+ The reason behind this choice contains a lot of factors. There was many potential Amplifiers for this design. Including:
 
 To choose the suitable one I considered the key measurements are:
 
@@ -97,21 +91,6 @@ Final Decision
 	🔺 **TAS5825M OR TAS5825P** Will be the upgrade of the (TPA3130 OR TPA3129) since it has lower distortion and built in DSP (Digital Signal Processing), plus it can output 38-W stereo which is more than enough. Only draw back is it does needs uC to configure it.
 
 
-🔴 Boost Converter (LM3481)	<a href="https://www.ti.com/product/LM3481" alt="repo-size">
-		<img src="https://img.shields.io/badge/Chip-LM3481-yellow.svg" /></a>
--------------------
-Since the System is adopting 3.7V output rail out from the battery (USB-C) PCB. It needs a Boost Converter that can accept and work on this low voltage. The **LM3481** is capable of accepting as low as 3V and up to 12V at 2.5A resulting 30W to satisfy the amplifier load. The efficiency on this Configuration could reach up to 87%
-
-Topology: BOOST
-
-Frequency:410Khz (The higher the smaller components can be used maximizing the use of the PCB area)
-
-The only downside is the EN pin has to be driven **low** to enable the chip
-
-Other alternatives I am considering on future updates are:
-
-- TPS61288
-- MP3432
 
 🔴 Bluetooth module (BT-806)   <a href="https://www.feasycom.net/dual-mode-bluetooth-module/bluetooth-5-0-csr8675-aptx-audio-module-fsc.html
 " alt="repo-size">
