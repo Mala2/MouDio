@@ -77,7 +77,7 @@ Schematic
 🟢This is the ****[Main](Documentation/Main/)**** PCB it contain the **Amplifier** - 2x  Texas Instruments® **TAS5825M** and The **FSC-BT806 Feasycom**
 	
 ![image](https://user-images.githubusercontent.com/63622787/149163751-7493e482-d3c2-45de-859b-50efd5079e94.png)
-![image](https://github.com/Mala2/Bluetooth-Speaker/blob/main/STL-Files/Pics/USB-C%20pcb.png?raw=true)
+![image](https://github.com/Mala2/Bluetooth-Speaker/blob/main/STL-Files/Pics/Main%20pcb1.png?raw=true)
 
 [📐 *View on FUSION 360*](https://a360.co/3FjaXoa)
 
@@ -85,8 +85,8 @@ Schematic
 🟢This is the ****[USB-C](Documentation/USB-C/)**** PCB it contain the **MP2639** - 2S charging IC and The **Atmega328**
 	
 ![image](https://user-images.githubusercontent.com/63622787/149164263-51866652-72fa-4304-86ee-b4834d0e1bf9.png)
-![image](https://github.com/Mala2/Bluetooth-Speaker/blob/main/STL-Files/Pics/Main%20pcb1.png?raw=true)
-	
+![image](https://github.com/Mala2/Bluetooth-Speaker/blob/main/STL-Files/Pics/USB-C%20pcb.png?raw=true)
+![image](https://github.com/Mala2/Bluetooth-Speaker/blob/main/STL-Files/Pics/USB-C_back1.png?raw=true)
 [📐 *View on FUSION 360*](https://a360.co/3fcBBV4)
 
 	
@@ -101,35 +101,35 @@ Working Principal
 
 🔸	**Startup Procedures: [I/O_2] pressed for >2s**
 	
-•	The atmega328 wakes up
+*	The atmega328 wakes up
 	
-•	Bring up power supplies.
+*	Bring up power supplies.
 	
-•	Send 3V3 high signal more than 100ms to Bluetooth Module BT-806  through VREG_IN (PLAY/PAUSE) pin to boot the module then stop the signal.
+*	Send 3V3 high signal more than 100ms to Bluetooth Module BT-806  through VREG_IN (PLAY/PAUSE) pin to boot the module then stop the signal.
 	
-•	Once power supplies are stable, bring up PDN of TAS5825 to High and wait 5ms (Keep in mind PDN is pulled up to 3V3 normally).
+*	Once power supplies are stable, bring up PDN of TAS5825 to High and wait 5ms (Keep in mind PDN is pulled up to 3V3 normally).
 	
-•	Set the TAS5825 into HiZ state and enable DSP via the I2C control port.
+*	Set the TAS5825 into HiZ state and enable DSP via the I2C control port.
 	
-•	Wait 5ms at least. Then initialize the DSP Coefficient, then set the TAS5825 to Play state.
+*	Wait 5ms at least. Then initialize the DSP Coefficient, then set the TAS5825 to Play state.
 	
-•	Display the BAT SOC with 4 LEDs with help of either the BQ25883 or MAX17044. 🔴[TO DO]
+*	Display the BAT SOC with 4 LEDs with help of either the BQ25883 or MAX17044. 🔴[TO DO]
 	
 🔸	**Shutdown Procedures: [I/O_2] pressed for >2s**
 	
-•	Configure the Register 0x03h -D[1:0]=10 (Hiz) via the I2C control port or Pull PDN low.
+*	Configure the Register 0x03h -D[1:0]=10 (Hiz) via the I2C control port or Pull PDN low.
 	
-•	Wait at least 6ms (this time depends on the LRCLK rate ,digital volume and digital volume ramp down rate).
+*	Wait at least 6ms (this time depends on the LRCLK rate ,digital volume and digital volume ramp down rate).
 	
-•	Bring down power supplies.
+*	Bring down power supplies.
 	
-•	The atmega328 goes to deep sleep waiting for the next event.
+*	The atmega328 goes to deep sleep waiting for the next event.
 	
 🔸	**Charging Procedures: 🔴 [*TO DO*]**
 	
-•	Once the charge input is present the BQ25883 will send an interrupter either through INT, STAT, PG pins
+*	Once the charge input is present the BQ25883 will send an interrupter either through INT, STAT, PG pins
 	
-•	Display the BAT SOC with 4 LEDs with help of either the BQ25883 or MAX17044 as long as the charge input is present.
+*	Display the BAT SOC with 4 LEDs with help of either the BQ25883 or MAX17044 as long as the charge input is present.
 
 3.	Once the speaker is ON the TPR54 is responsible to interact with Bluetooth Module BT-806 to change the song and volume. (Keep in mind that the TAS5825 can also change the just volume)
 through TX/RX UART pin between the atmega328 and Bluetooth Module BT-806 at 115200 rate data.
