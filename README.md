@@ -1,6 +1,6 @@
 # Bluetooth-Speaker
 <p align="center">
-**⚠  This project is currently still under development. If you came from Reddit just wait I will organize the files soon ⚠️**
+**⚠  This project is currently still under development ⚠️**
 	
 Discord https://discord.gg/edw5AbDd
 <p align="center">
