@@ -72,21 +72,25 @@ Repository Contents
 
 	
 	
+Block Diagram
+-------------------	
+[![image](https://user-images.githubusercontent.com/63622787/149407212-5481d954-ead2-4d6a-b5ce-ba763abd11d3.png)](Hardware)
+
 Schematic
 -------------------
 🟢This is the ****[Main](Documentation/Main/)**** PCB it contain the **Amplifier** - 2x  Texas Instruments® **TAS5825M** and The **FSC-BT806 Feasycom**
 	
-![image](https://user-images.githubusercontent.com/63622787/149163751-7493e482-d3c2-45de-859b-50efd5079e94.png)
-![image](https://github.com/Mala2/Bluetooth-Speaker/blob/main/STL-Files/Pics/Main%20pcb1.png?raw=true)
+[![image](https://user-images.githubusercontent.com/63622787/149163751-7493e482-d3c2-45de-859b-50efd5079e94.png)](https://a360.co/3FjaXoa)
+[![image](https://github.com/Mala2/Bluetooth-Speaker/blob/main/STL-Files/Pics/Main%20pcb1.png?raw=true)](https://a360.co/3FjaXoa)
 
 [📐 *View on FUSION 360*](https://a360.co/3FjaXoa)
 
 	
 🟢This is the ****[USB-C](Documentation/USB-C/)**** PCB it contain the **MP2639** - 2S charging IC and The **Atmega328**
 	
-![image](https://user-images.githubusercontent.com/63622787/149164263-51866652-72fa-4304-86ee-b4834d0e1bf9.png)
-![image](https://github.com/Mala2/Bluetooth-Speaker/blob/main/STL-Files/Pics/USB-C%20pcb.png?raw=true)
-![image](https://github.com/Mala2/Bluetooth-Speaker/blob/main/STL-Files/Pics/USB-C_back1.png?raw=true)
+[![image](https://user-images.githubusercontent.com/63622787/149164263-51866652-72fa-4304-86ee-b4834d0e1bf9.png)](https://a360.co/3fcBBV4)
+[![image](https://github.com/Mala2/Bluetooth-Speaker/blob/main/STL-Files/Pics/USB-C%20pcb.png?raw=true)](https://a360.co/3fcBBV4)
+[![image](https://github.com/Mala2/Bluetooth-Speaker/blob/main/STL-Files/Pics/USB-C_back1.png?raw=true)](https://a360.co/3fcBBV4)
 [📐 *View on FUSION 360*](https://a360.co/3fcBBV4)
 
 	
@@ -198,5 +202,7 @@ I am not sure yet what charging IC to use I like the BQ25883 as it has OTG to ch
 🔴 **Battery efficiency is critical here so using every possible way to reduce the consumption is needed.**
 	
 🔴 **Need help with software part.**
+	
+🔴 **To be continued
 
 
