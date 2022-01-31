@@ -199,10 +199,6 @@ M3 3mm M3-0.5 Brass Threaded Metal Heat Set Screw Inserts for 3D Printing
 	
 To Do List
 -------------------
-
-I am not sure yet what charging IC to use I like the BQ25883 as it has OTG to charge phones and I2C communications to read the BAT voltage. Or we can use standalone IC along with a buck converter and a Fuel Gauge MAX17044 OR MAX17048 to read the SOC state of charge to Alert the atmega328 of low battery.
-	
-
 	
 🔴 **Battery efficiency is critical here so using every possible way to reduce the consumption is needed.**
 	
