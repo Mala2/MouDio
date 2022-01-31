@@ -9,27 +9,70 @@
 #else
 #include "WProgram.h"
 #endif
-
-#define MUTEPIN                            11
-
-#define CCPIN                             A0
+#include <Wire.h>
 
 
-#define BQ25895_ADDRESS                   0x6a
-#define TAS5825M_ADDRESS                  0x4e // Please check datasheet ti find the correct ADDRS, Try 0x4c in case 
-
-#define BQ25895_REG_INP_LIM               0x00
-#define BQ25895_REG_ADC_DATALINE_CONFIG   0x02
-#define BQ25895_REG_WD_CE_SYSVOLT_CONFIG  0x03
-#define BQ25895_REG_CHRG_CURRENT_CONFIG   0x04
-#define BQ25895_REG_BATFET_CONFIG         0x09
-#define BQ25895_REG_VBUS_CHRG_STAT        0x0b
-#define BQ25895_REG_ADC_SYS_VOLT          0x0f
-#define BQ25895_REG_ADC_VBUS_VOLT         0x11
-#define BQ25895_REG_ADC_CHRG_CURRENT      0x12
-#define BQ25895_REG_RESET                 0x14
+#define toLowByte(w)              ((uint8_t) ((w) & 0xff))
+#define toHighByte(w)             ((uint8_t) ((w) >> 8))
+#define toUint16(highB, lowB)     ((uint16_t)((uint8_t)highB << 8) + (uint8_t)lowB)
+#define BV(bit)                   (1 <<(bit))
+#define setBit(byte, bit)         (byte |= BV(bit))
+#define clearBit(byte, bit)       (byte &= ~BV(bit))
+#define toggleBit(byte, bit)      (byte ^= BV(bit))
 
 
+#define TAS5825M_ADDRESS                  0x4e // Please check datasheet ti find the correct ADDRS, Try 0x4c in case
+#define TAS5825M_ADDRESS_2                0x4c // Please check datasheet ti find the correct ADDRS, Try 0x4c in case
+#define IS31_ADDRESS                      0x54 // IS31FL3195 LED Driver https://www.lumissil.com/assets/pdf/core/IS31FL3195_EB.pdf
+#define DRV2605_ADDRESS                   0x5A // DRV2605 LRA Driver
+#define MAX77962_READ_ADDRESS             0x69 // MAX77962 READ
+#define MAX77962_WRITE_ADDRESS            0x68 // MAX77962 WRITE
+#define MAX17320                          0x36 // MAX17320
+
+//https://pdfserv.maximintegrated.com/en/an/ug7161-max17320-software-p3.pdf
+/////////////////////MAX17320//////////////////////
+#define            RepSOC                      0x06 //the final state-of-charge percentage
+#define            PCKP                        0xDb //The PCKP register contains the voltage between PACK+ and GND
+#define            AvgVCell                    0x19 //average of the VCell register readings
+#define            RepCap                      0x05 //average of the VCell register readings
+#define            Temp                        0x1B //average of the VCell register readings
+
+
+/////////////////////MAX77962//////////////////////
+
+//Top
+#define            SWRST                      0x2 //Software Reset write 0xA5 *Write, Read
+#define            TOP_INT                    0x3 //Top Interrupt *Read Clears All
+#define            TOP_INT_MASK               0x4 //Top Interrupt Mask *Write, Read
+#define            TOP_INT_OK                 0x5 //Top Status Indicator *Read
+
+//Configurations
+#define            CHG_INT                    0x10 //Charger Interrupts *Read Clears All
+#define            CHG_INT_MASK               0x11 //Charger Interrupts Mask *Read Clears All
+#define            CHG_INT_OK                 0x12 //Charger Status *Read
+#define            CHG_DETAILS_00             0x13 //Charger Details 0, QBAT, OTG, CHGIN Status *Read
+#define            CHG_DETAILS_01             0x14 //Charger Details 1, Battery, OTG, Temp Status *Read
+#define            CHG_DETAILS_02             0x15 //Charger Details 2, #Cells, Swetching Frequency, Application Mode, Therm Status *Read
+
+#define            CHG_CNFG_00                0x16 //Charger configuration 0 Smart Power Selector *Write, Read
+#define            CHG_CNFG_01                0x17 //Charger configuration 1 Fast Charge Timer *Write, Read
+#define            CHG_CNFG_02                0x18 //Charger configuration 2 Fast Charge Current *Write, Read
+#define            CHG_CNFG_03                0x19 //Charger configuration 3 *Write, Read
+#define            CHG_CNFG_04                0x1A //Charger configuration 4 Charge Termenatin Voltage *Write, Read
+#define            CHG_CNFG_05                0x1B //Charger configuration 5 BATT to SYS current limit, Trickle Charge Current *Write, Read
+#define            CHG_CNFG_06                0x1C //Charger configuration 6 Charge Setting Protection *Write, Read
+#define            CHG_CNFG_07                0x1D //Charger configuration 7 JEITA battery temperature monitoring *Write, Read
+#define            CHG_CNFG_08                0x1E //Charger configuration 8 CHGIN Input Current *Write, Read
+#define            CHG_CNFG_09                0x1F //Min SYS requlation, OTG Current Limit *Write, Read
+#define            CHG_CNFG_10                0x20 //Min CHGIN Input Voltage *Write, Read
+
+
+
+
+//////////////////////////////////////////////////
+
+
+/////////////////////TAS5825M//////////////////////
 #define            RESET_CHANGE_PAGE          0x00
 #define            RESET_CTRL                 0x01
 #define            Book                       0x7f
@@ -54,7 +97,7 @@
 #define            AUTO_MUTE_CTRL             0x50
 #define            AUTO_MUTE_TIME             0x51
 #define            ANA_CTRL                   0x53
-#define            AGAIN                      0x54
+#define            AGAIN                      0x54//
 #define            SPI_CLK                    0x55
 #define            EEPROM_CTRL0               0x56
 #define            EEPROM_RD_CMD              0x57
@@ -89,19 +132,18 @@
 #define            MISC_CONTROL               0x76
 #define            CBC_CONTROL                0x77
 #define            FAULT_CLEAR                0x78
+///////////////////////////////////////////////////
 
 class Amplifier  {
-  
+
   public:
     Amplifier();
 
-    ///////////////////////
-    void init(unsigned int digital_volume, unsigned int analog_gain, unsigned int Select_Fsw, unsigned int I2S_Format);
-    void VOL_DOWN();
-    
-    void sleepBtnWake();    
-    boolean btnPressed();
-
+/////////////////////TAS5825M//////////////////////
+    void init();
+    void Vol_Down (void);
+    void wake_AMP (void);
+    void sleep_AMP (void);
     int getRESET_CHANGE_PAGE();
     int getBook();
     int getDIG_VOL();
@@ -124,17 +166,100 @@ class Amplifier  {
     int getFS_MON();
     int getPVDD_ADC();
     int getGPIO0_SEL();
-    void sleep_on(void);
-    
-    //////////////////////
-    
-   
+
+////////////////////IS31FL3195////////////////////
+    void init_IS31FL3195();
+    void Mode_IS31FL3195();
+    void show_LED(void);
+    void sleep_led(void);
+    void show_led_0(void);
+    void show_led_25(void);
+    void show_led_50(void);
+    void show_led_75(void);
+    void show_led_100(void);
+    void show_led_0_flash(void);
+    void show_led_25_solid(void);
+    void show_led_50_solid(void);
+    void show_led_75_solid(void);
+    void show_led_100_solid(void);
+    void show_led_Next(void);
+    void show_led_Back(void);
+
+
+////////////////////MAX77962//////////////////////
+    int get_bat_stat(void);
+    put_bat_voltage(void); // why not void
+    void otg_on(void);
+    void otg_off(void);
+
+    int getCHG_DETAILS_00();
+    int getCHG_DETAILS_01();
+    int getCHG_DETAILS_02();
+    int getCHG_CNFG_00();
+    int getCHG_CNFG_01();
+    int getCHG_CNFG_02();
+    int getCHG_CNFG_03();
+    int getCHG_CNFG_04();
+    int getCHG_CNFG_05();
+    int getCHG_CNFG_06();
+    int getCHG_CNFG_07();
+    int getCHG_CNFG_08();
+    int getCHG_CNFG_09();
+    int getCHG_CNFG_10();
+
+/////////////////////MAX77962//////////////////////
+    float getPCKP();
+    float BATpercent();
+    float getAvgVCell();
+    float getRepCap();
+    float getTemp();
+
+    Amplifier(float);
+    bool begin();
+    bool begin(bool);
+    bool begin(bool, uint8_t);
+    bool begin(TwoWire*);
+    bool begin(TwoWire*, uint8_t);
+    bool begin(TwoWire*, bool, uint8_t);
+    uint8_t address();
+
+    uint16_t adc2();
+    float voltage();
+    float voltage2();
+    uint16_t version1();
+    uint8_t compensation();
+    void compensation(uint8_t);
+    bool sleep();
+    bool isSleeping();
+    bool wake();
+    void reset();
+    void quickstart();
+    bool alertIsActive();
+    void clearAlert();
+    uint8_t getThreshold();
+    void setThreshold(uint8_t);
+    bool deviceFound();
+    void readRegister_16_N(byte reg, uint16_t *value);
+
+
 
   private:
+// General function to read I2c registers
     byte readReg8(int deviceAddress, int regAddress);
+    word readReg16(int deviceAddress, int regAddress);
     void writeReg16(int deviceAddress, int regAddress, word data);
     void writeReg8(int deviceAddress, int regAddress, byte data);
-    
+
+  protected:
+
+   TwoWire *_wire;
+    uint8_t _address;
+    uint16_t readRegister16(uint8_t);
+    void writeRegisterId(uint8_t);
+    void writeRegister16(uint8_t, uint16_t);
+
+
+
 }; // End class in semi-colon...
 
 
