@@ -1,13 +1,15 @@
 
-<p align="center">
-   <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/cb13bf78a5724965e46d3dd32a3a264b87d806b8/STL-Files/Pics/LOGO1.svg"  width=200>  	
 
 	
-# Bluetooth-Speaker
+   
+<p align="center">
+   <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/cb13bf78a5724965e46d3dd32a3a264b87d806b8/STL-Files/Pics/LOGO1.svg"  width=200>  
+	
+	
+# 
 <p align="center">
 **⚠  This project is currently still under development ⚠️**
 	
-Discord https://discord.gg/edw5AbDd
 <p align="center">
    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Arduino_Logo.svg/2560px-Arduino_Logo.svg.png"  width=200>  
 
@@ -19,8 +21,9 @@ Discord https://discord.gg/edw5AbDd
 		<img src="https://img.shields.io/github/issues/Mala2/Bluetooth-Speaker.svg" /></a>
 	<a href="https://github.com/sparkfun/Qwiic_SerLCD_Py/blob/master/LICENSE" alt="License">
 		<img src="https://img.shields.io/badge/license-MIT-blue.svg" /></a> 
- 	<a href="https://discord.gg/GqjnZJyF" alt="Issues">
-		<img src="https://img.shields.io/discord/895439756681437185.svg" /></a>
+	  <br/>
+  	<a href="https://discord.gg/jvKunuGb8d">
+   		<img src="https://img.shields.io/badge/discord-join-7289DA.svg?logo=discord&longCache=true&style=flat" />
 	<a href="https://twitter.com/intent/follow?screen_name=Electricshocksa">
         	<img src="https://img.shields.io/twitter/follow/Electricshocksa.svg?style=social&logo=twitter"
            	 alt="follow on Twitter"></a>
@@ -99,6 +102,7 @@ Schematic
 [![image](https://user-images.githubusercontent.com/63622787/149164263-51866652-72fa-4304-86ee-b4834d0e1bf9.png)](https://a360.co/3fcBBV4)
 [![image](https://github.com/Mala2/Bluetooth-Speaker/blob/main/STL-Files/Pics/USB-C%20pcb.png?raw=true)](https://a360.co/3fcBBV4)
 [![image](https://github.com/Mala2/Bluetooth-Speaker/blob/main/STL-Files/Pics/USB-C_back1.png?raw=true)](https://a360.co/3fcBBV4)
+
 [📐 *View on FUSION 360*](https://a360.co/3fcBBV4)
 
 	
@@ -209,7 +213,9 @@ To Do List
 🔴 **Need help with software part.**
 	
 🔴 **To be continued
-
+	
+	
 [![Mo's github stats](https://github-readme-stats.vercel.app/api?username=Mala2&count_private=true&show_icons=true&theme=radical&hide_rank=false)](https://github.com/anuraghazra/github-readme-stats)
-
+<p align="center">
+   <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/7fe38b85bc563e994e8ec79616e6b7430d5f990c/STL-Files/Pics/line%20logo1.svg"  width=1200>  
 
