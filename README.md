@@ -1,4 +1,8 @@
 
+<p align="center">
+   <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/cb13bf78a5724965e46d3dd32a3a264b87d806b8/STL-Files/Pics/LOGO1.svg"  width=200>  	
+
+	
 # Bluetooth-Speaker
 <p align="center">
 **⚠  This project is currently still under development ⚠️**
@@ -194,7 +198,6 @@ M3 3mm M3-0.5 Brass Threaded Metal Heat Set Screw Inserts for 3D Printing
 [*Brass Threaded Metal*](https://www.ebay.com/itm/292174792941) **X10**
 
 		
-	
 
 	
 	
