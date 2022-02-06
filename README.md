@@ -1,3 +1,4 @@
+
 # Bluetooth-Speaker
 <p align="center">
 **⚠  This project is currently still under development ⚠️**
@@ -205,5 +206,7 @@ To Do List
 🔴 **Need help with software part.**
 	
 🔴 **To be continued
+
+[![Mo's github stats](https://github-readme-stats.vercel.app/api?username=Mala2&count_private=true&show_icons=true&theme=radical&hide_rank=false)](https://github.com/anuraghazra/github-readme-stats)
 
 
