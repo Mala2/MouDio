@@ -3,7 +3,7 @@
 	
    
 <p align="center">
-   <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/cb13bf78a5724965e46d3dd32a3a264b87d806b8/STL-Files/Pics/LOGO1.svg"  width=200>  
+   <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/cb13bf78a5724965e46d3dd32a3a264b87d806b8/STL-Files/Pics/LOGO1.svg"  width=400>  
 	
 	
 # 
