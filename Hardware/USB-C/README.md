@@ -1,5 +1,7 @@
 **⚠  This PCB is currently still under development. ⚠️**
 
+[📐 *View on FUSION 360*](https://a360.co/3fcBBV4)
+
 FRONT
 -------------------
 
