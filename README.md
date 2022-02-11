@@ -214,8 +214,6 @@ To Do List
 	
 🔴 **Need help with software part.**
 	
-🔴 **SET DRV INTO SRANDBY=0 DURING SLEEP.**
-	
 🔴 **To be continued
 	
 	
