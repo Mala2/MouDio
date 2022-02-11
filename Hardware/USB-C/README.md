@@ -1,13 +1,13 @@
-[📐 *View on FUSION 360*](https://a360.co/3FjaXoa)
+**⚠  This PCB is currently still under development. ⚠️**
 
-<p align="center">
+[📐 *View on FUSION 360*](https://a360.co/3fcBBV4)
 
 FRONT
 -------------------
 
-![image](https://github.com/Mala2/Bluetooth-Speaker/blob/main/STL-Files/Pics/Main%20pcb1.png?raw=true)
-
+![image](https://user-images.githubusercontent.com/63622787/149172020-fdec45bb-1bfc-45b6-b87f-16b76e82a8c8.png)
 
 BACK
 -------------------
 
+![image](https://user-images.githubusercontent.com/63622787/149172636-e705cc73-9523-4568-b1e5-cf9036703223.png)
