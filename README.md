@@ -9,7 +9,10 @@
 # 
 <p align="center">
 **⚠  This project is currently still under development ⚠️**
-	
+<p align="center">
+**  ماشاء الله تبارك الله**
+
+
 <p align="center">
    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Arduino_Logo.svg/2560px-Arduino_Logo.svg.png"  width=200>  
 
@@ -24,9 +27,6 @@
 	  <br/>
   	<a href="https://discord.gg/jvKunuGb8d">
    		<img src="https://img.shields.io/badge/discord-join-7289DA.svg?logo=discord&longCache=true&style=flat" />
-	<a href="https://twitter.com/intent/follow?screen_name=Electricshocksa">
-        	<img src="https://img.shields.io/twitter/follow/Electricshocksa.svg?style=social&logo=twitter"
-           	 alt="follow on Twitter"></a>
 	<a href="https://twitter.com/intent/follow?screen_name=Muhammadalali">
         	<img src="https://img.shields.io/twitter/follow/Muhammadalali.svg?style=social&logo=twitter"
            	 alt="follow on Twitter"></a>
@@ -118,6 +118,7 @@ Schematic
 
 <p align="center">
    <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/7fe38b85bc563e994e8ec79616e6b7430d5f990c/STL-Files/Pics/line%20logo1.svg"  width=1200>  	
+
 Working Principal
 -------------------
 1.	First, I am going to use the TPR54 to turn ON/OFF the system atmega328 [I/O_2] if it pressed for >2s  . This module can send either active High/Low signal output as desire. I will explain later why I need this specific module.
