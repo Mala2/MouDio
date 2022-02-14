@@ -39,6 +39,7 @@
 
 Overview
 -------------------
+		
 A fully function Bluetooth Speaker implement most of the modern features. The goal is to have a High-performance portable Bluetooth speaker. In this speaker, I tried to combine all modern features to have a pure sound and make sure it is easy to build and affordable. Atmega328p at its core, and compatibility with Arduino, MicroPython. Along with BT-806 featuring Qualcomm® CSR8675. And as for the amplifier 2x Texas Instruments® TAS5825M Which has low distortion can output 2 × 30 W. 
 
 So far I have built and tested PCBs as prototypes and they work as expected so the hardware design is mainly done. **However, the software part is still under process. and this is where I need most of the help**
@@ -55,6 +56,8 @@ Please refer to the shared files for more information
 
 
 [*🎨 View on FUSION 360*](https://a360.co/3340jVi)
+<p align="center">
+   <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/7fe38b85bc563e994e8ec79616e6b7430d5f990c/STL-Files/Pics/line%20logo1.svg"  width=1200>  
 
 Features
 -------------------
@@ -66,6 +69,8 @@ Features
 * **Power** - Accept **USB C IN** Delivery **Up to 2.5A  Charge Current**  - **USB A OUT** Capable of **10W-5V,2A** - **Low idle power** consumption - **5000mAh** battery capacity upgradeable to **10000mAh**
 
 * **Arduino IDE Programmable Bluetooth-Speaker**
+<p align="center">
+   <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/7fe38b85bc563e994e8ec79616e6b7430d5f990c/STL-Files/Pics/line%20logo1.svg"  width=1200>  
 
 Repository Contents
 -------------------
@@ -81,11 +86,15 @@ Repository Contents
 🎲 **[Prototype](Prototype)** • Evaluation board, Cases, etc...
 
 	
+<p align="center">
+   <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/7fe38b85bc563e994e8ec79616e6b7430d5f990c/STL-Files/Pics/line%20logo1.svg"  width=1200>  
 	
 Block Diagram
 -------------------	
 This is the latest Block Diagram, Things may change and probberly there is some discrepancy between the schematic and the block diagram.
 [![image](https://user-images.githubusercontent.com/63622787/149407212-5481d954-ead2-4d6a-b5ce-ba763abd11d3.png)](Hardware)
+<p align="center">
+   <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/7fe38b85bc563e994e8ec79616e6b7430d5f990c/STL-Files/Pics/line%20logo1.svg"  width=1200>  
 
 Schematic
 -------------------
@@ -107,7 +116,8 @@ Schematic
 
 [📐 *View on FUSION 360*](https://a360.co/3fcBBV4)
 
-	
+<p align="center">
+   <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/7fe38b85bc563e994e8ec79616e6b7430d5f990c/STL-Files/Pics/line%20logo1.svg"  width=1200>  	
 Working Principal
 -------------------
 1.	First, I am going to use the TPR54 to turn ON/OFF the system atmega328 [I/O_2] if it pressed for >2s  . This module can send either active High/Low signal output as desire. I will explain later why I need this specific module.
@@ -115,15 +125,19 @@ Working Principal
 
 	
 	
-2.	After the wake up the atmega328 going to send high signal to turn on the LT3042 LDO 3V3 to power the Bluetooth Module BT-806 and the TAS5825 circuitry. 
+2.	After the wake up the atmega328 going to send high signal to turn on the LT3042 (LDO 3V3) to power the Bluetooth Module BT-806 and the TAS5825 circuitry. 
 
 🔸	**Startup Procedures: [I/O_2] pressed for >2s**
 	
-*	The atmega328 wakes up
+*	The atmega328 wakes up.
 	
-*	Bring up power supplies.
+*	Turn on the happtic driver as an indication for 1s.
 	
-*	Send 3V3 high signal more than 100ms to Bluetooth Module BT-806  through VREG_IN (PLAY/PAUSE) pin to boot the module then stop the signal.
+*	Turn on the LED driver to reflact the current SOC% of the battery with the help of fuel gauge.
+	
+*	Bring up power supplies to LT3042 (LDO 3V3) and load switch if used.
+	
+*	Send 3V3 high signal more than 100ms to Bluetooth Module BT-806 through VREG_IN (PLAY/PAUSE) pin to boot the module then bring the signal back to low.
 	
 *	Once power supplies are stable, bring up PDN of TAS5825 to High and wait 5ms (Keep in mind PDN is pulled up to 3V3 normally).
 	
@@ -131,7 +145,6 @@ Working Principal
 	
 *	Wait 5ms at least. Then initialize the DSP Coefficient, then set the TAS5825 to Play state.
 	
-*	Display the BAT SOC with 4 LEDs with help of either the BQ25883 or MAX17044. 🔴[TO DO]
 	
 🔸	**Shutdown Procedures: [I/O_2] pressed for >2s**
 	
@@ -139,25 +152,52 @@ Working Principal
 	
 *	Wait at least 6ms (this time depends on the LRCLK rate ,digital volume and digital volume ramp down rate).
 	
-*	Bring down power supplies.
+*	Bring down power supplies LT3042 (LDO 3V3) and load switch if used.
 	
 *	The atmega328 goes to deep sleep waiting for the next event.
 	
 🔸	**Charging Procedures: 🔴 [*TO DO*]**
 	
-*	Once the charge input is present the BQ25883 will send an interrupter either through INT, STAT, PG pins
-	
-*	Display the BAT SOC with 4 LEDs with help of either the BQ25883 or MAX17044 as long as the charge input is present.
+*	Once the charge input is present the MAX77962 will send an interrupter either through INTB, INOKB pins
 
-3.	Once the speaker is ON the TPR54 is responsible to interact with Bluetooth Module BT-806 to change the song and volume. (Keep in mind that the TAS5825 can also change the just volume)
+*	Turn on the happtic driver as an indication for 1s.
+
+*	Display the the current SOC% with 4 LEDs with help of LED driver as long as the charge input is present.
+
+3.	Once the speaker is ON the TPR54 is responsible to interact with Bluetooth Module BT-806 to change the song and volume. (Keep in mind that the TAS5825 can also change just volume)
 through TX/RX UART pin between the atmega328 and Bluetooth Module BT-806 at 115200 rate data.
 	For example: Once the atmega328 is connected to BT-806 It can send a command to change the volume say 
 
 ![image](https://user-images.githubusercontent.com/63622787/149187244-66467fe5-f23c-40f3-abe1-30d0a50c8069.png)
 
-And so on. Also, if the BAT SOC is low alert the user with an LED blinking and start the Shutdown Procedures once the BAT is to low to operate the system > 6V or 10%.
+And so on. Also, if the BAT SOC is low alert the user with an LED blinking and start the Shutdown Procedures once the BAT is to low to operate the system > 6V or 15%.
+
+To Do List
+-------------------
+	
+🔴 **Battery efficiency is critical here so using every possible way to reduce the consumption is needed.**
+	
+🔴 **Need help with software part.**
+	
+1- Turns the bt806 after turning the 3v3. Sending a high signal to Vreg for > 2s Upon waking up then remain Low. (OR MOSFET NETWORK)
+
+2- if the battery < 15% shut down the speaker. ✅
+
+3-  if the battery <35% set the MAX volume to be less than 70%. In other words reduces the volume to not consume more power. TAS5825 has register 0x4c and 0x54 (AGAIN or DIGITAL_VOL) to set that
+
+4- (after checking the vol range of bt806), send a command AT+SPKVOL and check the volume range of bt806 sent. After that set the TAS5825 accordingly. That can be done with two registers either  0x4c and 0x54 (AGAIN or DIGITAL_VOL). 
+
+5-For example once the user swap to right (Next Song). The leds should indicate that. From left to right emotions. ->
+
+6-if no sounds or connection established for 30 min turn off the speaker. Either by checking the current flow from the fuel gauge or the brake-806 is not in play status for more than 30 min. 
+
+7- if charger inserted activate the haptic driver as a feedback.✅ 
 
 	
+🔴 **To be continued
+	<p align="center">
+   <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/7fe38b85bc563e994e8ec79616e6b7430d5f990c/STL-Files/Pics/line%20logo1.svg"  width=1200>  
+
 Components
 -------------------
 
@@ -203,36 +243,7 @@ M3 3mm M3-0.5 Brass Threaded Metal Heat Set Screw Inserts for 3D Printing
 
 [*Brass Threaded Metal*](https://www.ebay.com/itm/292174792941) **X10**
 
-		
-
-	
-	
-To Do List
--------------------
-	
-🔴 **Battery efficiency is critical here so using every possible way to reduce the consumption is needed.**
-	
-🔴 **Need help with software part.**
--------------------
-	
-1- Turns the bt806 after turning the 3v3. Sending a high signal to Vreg for > 2s Upon waking up then remain Low. (OR MOSFET NETWORK)
-
-2- if the battery < 15% shut down the speaker. ✅
-
-3-  if the battery <35% set the MAX volume to be less than 70%. In other words reduces the volume to not consume more power. TAS5825 has register 0x4c and 0x54 (AGAIN or DIGITAL_VOL) to set that
-
-4- (after checking the vol range of bt806), send a command AT+SPKVOL and check the volume range of bt806 sent. After that set the TAS5825 accordingly. That can be done with two registers either  0x4c and 0x54 (AGAIN or DIGITAL_VOL). 
-
-5-For example once the user swap to right (Next Song). The leds should indicate that. From left to right emotions. ->
-
-6-if no sounds or connection established for 30 min turn off the speaker. Either by checking the current flow from the fuel gauge or the brake-806 is not in play status for more than 30 min. 
-
-7- if charger inserted activate the haptic driver as a feedback.✅ 
-
-	
-🔴 **To be continued
-	
-	
+			
 [![Mo's github stats](https://github-readme-stats.vercel.app/api?username=Mala2&count_private=true&show_icons=true&theme=radical&hide_rank=false)](https://github.com/anuraghazra/github-readme-stats)
 <p align="center">
    <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/7fe38b85bc563e994e8ec79616e6b7430d5f990c/STL-Files/Pics/line%20logo1.svg"  width=1200>  
