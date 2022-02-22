@@ -92,7 +92,7 @@ Repository Contents
 Block Diagram
 -------------------	
 This is the latest Block Diagram, Things may change and probberly there is some discrepancy between the schematic and the block diagram.
-[![image](https://github.com/Mala2/Bluetooth-Speaker/blob/main/STL-Files/Pics/BLUETOOTH%20SPEAKER%20WH.png?raw=true)](Hardware)
+[![image](https://user-images.githubusercontent.com/63622787/149407212-5481d954-ead2-4d6a-b5ce-ba763abd11d3.png)](Hardware)
 <p align="center">
    <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/7fe38b85bc563e994e8ec79616e6b7430d5f990c/STL-Files/Pics/line%20logo1.svg"  width=1200>  
 
