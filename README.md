@@ -92,7 +92,7 @@ Repository Contents
 Block Diagram
 -------------------	
 This is the latest Block Diagram, Things may change and probberly there is some discrepancy between the schematic and the block diagram.
-[![image](https://github.com/Mala2/Bluetooth-Speaker/blob/main/STL-Files/Pics/BLUETOOTH%20SPEAKER%201.png?raw=true)](Hardware)
+[![image](https://user-images.githubusercontent.com/63622787/149407212-5481d954-ead2-4d6a-b5ce-ba763abd11d3.png)](Hardware)
 <p align="center">
    <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/7fe38b85bc563e994e8ec79616e6b7430d5f990c/STL-Files/Pics/line%20logo1.svg"  width=1200>  
 
@@ -101,7 +101,7 @@ Schematic
 🟢This is the ****[Main](Documentation/Main/)**** PCB it contain the **Amplifier** - 2x  Texas Instruments® **TAS5825M** and The **FSC-BT806 Feasycom**
 	
 [![image](https://user-images.githubusercontent.com/63622787/149163751-7493e482-d3c2-45de-859b-50efd5079e94.png)](https://a360.co/3FjaXoa)
-[![image](![image](https://user-images.githubusercontent.com/63622787/155476266-f6f89e32-8e0f-45d6-9e8e-284dc5caba0e.png)](https://a360.co/3FjaXoa)
+[![image](https://github.com/Mala2/Bluetooth-Speaker/blob/main/STL-Files/Pics/Main%20pcb1.png?raw=true)](https://a360.co/3FjaXoa)
 
 [📐 *View on FUSION 360*](https://a360.co/3FjaXoa)
 
