@@ -112,8 +112,8 @@ Schematic
 🟢This is the ****[USB-C](Documentation/USB-C/)**** PCB it contain the **MP2639** - 2S charging IC and The **Atmega328**
 
 [![image](https://user-images.githubusercontent.com/63622787/149164263-51866652-72fa-4304-86ee-b4834d0e1bf9.png)](https://a360.co/3fcBBV4)
-[![image](https://github.com/Mala2/Bluetooth-Speaker/blob/main/STL-Files/Pics/USB-C%20pcb.png?raw=true)](https://a360.co/3fcBBV4)
-[![image](https://github.com/Mala2/Bluetooth-Speaker/blob/main/STL-Files/Pics/USB-C_back1.png?raw=true)](https://a360.co/3fcBBV4)
+[![image](https://user-images.githubusercontent.com/63622787/155480244-e93962e4-1305-4c88-b8e6-c3814633a7e7.png)](https://a360.co/3fcBBV4)
+[![image](https://user-images.githubusercontent.com/63622787/155480352-2a0a0748-7e40-4480-87af-a22e0ddd7642.png)](https://a360.co/3fcBBV4)
 
 [📐 *View on FUSION 360*](https://a360.co/3fcBBV4)
 
