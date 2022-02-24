@@ -100,7 +100,7 @@ Schematic
 -------------------
 🟢This is the ****[Main](Documentation/Main/)**** PCB it contain the **Amplifier** - 2x  Texas Instruments® **TAS5825M** and The **FSC-BT806 Feasycom**
 
-[![image](https://user-images.githubusercontent.com/63622787/149163751-7493e482-d3c2-45de-859b-50efd5079e94.png)](https://a360.co/3FjaXoa)
+[![image](https://user-images.githubusercontent.com/63622787/155482345-e0b11533-9b19-4149-a2c4-2ca03223af79.png)](https://a360.co/3FjaXoa)
 [![image](https://user-images.githubusercontent.com/63622787/155478210-23ff49bb-4f19-4fd2-8a5d-6a32a56c2e9a.png)](https://a360.co/3FjaXoa)
 [![image](https://user-images.githubusercontent.com/63622787/155478343-42e6b0ed-c33d-4bdd-bf7c-dd120df9b8a5.png)](https://a360.co/3FjaXoa)
 
@@ -111,7 +111,8 @@ Schematic
 
 🟢This is the ****[USB-C](Documentation/USB-C/)**** PCB it contain the **MP2639** - 2S charging IC and The **Atmega328**
 
-[![image](https://user-images.githubusercontent.com/63622787/149164263-51866652-72fa-4304-86ee-b4834d0e1bf9.png)](https://a360.co/3fcBBV4)
+[![image](https://user-images.githubusercontent.com/63622787/155482459-88b97265-02f7-410f-854f-1922078902bf.png)](https://a360.co/3fcBBV4)
+[![image](https://user-images.githubusercontent.com/63622787/155482541-2bd08a8a-2dc6-4f6b-baf4-197b943a6eee.png)](https://a360.co/3fcBBV4)
 [![image](https://user-images.githubusercontent.com/63622787/155480244-e93962e4-1305-4c88-b8e6-c3814633a7e7.png)](https://a360.co/3fcBBV4)
 [![image](https://user-images.githubusercontent.com/63622787/155480352-2a0a0748-7e40-4480-87af-a22e0ddd7642.png)](https://a360.co/3fcBBV4)
 
