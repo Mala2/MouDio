@@ -101,7 +101,8 @@ Schematic
 🟢This is the ****[Main](Documentation/Main/)**** PCB it contain the **Amplifier** - 2x  Texas Instruments® **TAS5825M** and The **FSC-BT806 Feasycom**
 	
 [![image](https://user-images.githubusercontent.com/63622787/149163751-7493e482-d3c2-45de-859b-50efd5079e94.png)](https://a360.co/3FjaXoa)
-(https://a360.co/3FjaXoa)
+[![image](https://user-images.githubusercontent.com/63622787/155478210-23ff49bb-4f19-4fd2-8a5d-6a32a56c2e9a.png)](https://a360.co/3FjaXoa)
+[![image](https://user-images.githubusercontent.com/63622787/155478343-42e6b0ed-c33d-4bdd-bf7c-dd120df9b8a5.png)](https://a360.co/3FjaXoa)
 
 [📐 *View on FUSION 360*](https://a360.co/3FjaXoa)
 
