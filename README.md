@@ -194,11 +194,14 @@ To Do List
 
 5-For example once the user swap to right (Next Song). The leds should indicate that. From left to right emotions. ->
 
-6-if no sounds or connection established for 30 min turn off the speaker. Either by checking the current flow from the fuel gauge or the brake-806 is not in play status for more than 30 min.
+6-if no sounds or connection established for 30 min turn off the speaker. Either by checking the current flow from the fuel gauge or the زف-806 is not in play status for more than 30 min.
 
 7- if charger inserted activate the haptic driver as a feedback.✅
 
-
+9- If the charger is inserted increase the volume range to be even higher as more power will be provided. 
+	
+10- add resetFunc() after touching the middle TAP more than 10s
+	
 🔴 **To be continued
 	<p align="center">
    <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/7fe38b85bc563e994e8ec79616e6b7430d5f990c/STL-Files/Pics/line%20logo1.svg"  width=1200>  
