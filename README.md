@@ -202,7 +202,7 @@ To Do List
 	
 10- add resetFunc() after touching the middle TAP more than 10s
 	
-11- get the header file for the TAS5825M to act as stereo 
+11- get the header file for the TAS5825M to act as  Dual stereo 2.2 
 	
 🔴 **To be continued
 	<p align="center">
