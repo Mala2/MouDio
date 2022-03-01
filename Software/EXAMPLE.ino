@@ -10,7 +10,8 @@
 //#define NUM_LEDS    52
 //#define LED_TYPE    WS2812B
 //#define COLOR_ORDER GRB
-//CRGB leds[NUM_LEDS];
+//CRGB leds[NUM_LEDS]; 
+//test
 
 
 //-------------------------------------------------BT-806--------------------------------------------
