@@ -184,7 +184,7 @@ To Do List
 
 🔴 **Need help with software part.**
 
-1- Turns the bt806 after turning the 3v3. Sending a high signal to Vreg for > 2s Upon waking up then remain Low. (OR MOSFET NETWORK)
+1- Turns the bt806 after turning the 3v3. Sending a high signal to Vreg for > 2s Upon waking up then remain Low. (OR MOSFET NETWORK)✅
 
 2- if the battery < 15% shut down the speaker. ✅
 
