@@ -161,7 +161,7 @@ Working Principal
 
 *	The atmega328 goes to deep sleep waiting for the next event.
 
-🔸	**Charging Procedures: 🔴 [*TO DO*]**
+🔸	**Charging Procedures: 
 
 *	Once the charge input is present the MAX77962 will send an interrupter either through INTB, INOKB pins
 
