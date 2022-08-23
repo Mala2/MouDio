@@ -44,7 +44,7 @@ So far, I have built and tested PCBs as prototypes, which work as expected. The 
 
 [*🎨 View on FUSION 360*](https://a360.co/3340jVi)
 <p align="center">
-   <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/c04483eb9e1d58f311a47dce7c78fef7af7fab0e/STL-Files/Pics/line%20logo%20mb.svg"  width=1200>  
+   <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/d2fb2cd54b1a1c7008afc3e6f91d7903d9749cc6/STL-Files/Pics/line%20logo%20v3.svg"  width=1200>  
 
 Features
 -------------------
