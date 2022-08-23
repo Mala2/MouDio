@@ -108,11 +108,11 @@ The following displays the ****[USB-C](Documentation/USB-C/)**** PCB. It contain
 
 # Working Principal
 -------------------
-1. First, I am going to use the TPR54 to turn ON/OFF the system atmega328 [I/O_2] if it is pressed for >2s. This module can send either active High/Low signal output as desired. I will explain later why I need this specific module.
+**1. First, I am going to use the TPR54 to turn ON/OFF the system atmega328 [I/O_2] if it is pressed for >2s. This module can send either active High/Low signal output as desired. I will explain later why I need this specific module.**
 	
 [![image](https://github.com/Mala2/Bluetooth-Speaker/blob/main/STL-Files/Pics/TPR54-.png?raw=true)](https://www.azoteq.com/images/stories/pdf/proxsense_gpio_trackpad_datasheet.pdf)
 
-2. After waking up, the ATmega328 will send a high signal to turn on the LT3042 (LDO 3V3) to power the Bluetooth Module BT-806 and the TAS5825 circuitry.
+**2. After waking up, the ATmega328 will send a high signal to turn on the LT3042 (LDO 3V3) to power the Bluetooth Module BT-806 and the TAS5825 circuitry.**
 
 🔸	**Startup Procedures: [I/O_2] pressed for >2s**
 
@@ -131,8 +131,9 @@ The following displays the ****[USB-C](Documentation/USB-C/)**** PCB. It contain
 *	Set the TAS5825 into the HiZ state and enable DSP via the I2C control port.
 
 *	Wait 5ms at least. Then initialize the DSP Coefficient, then set the TAS5825 to Play state.
-
-
+		
+	<br />
+	
 🔸	**Shutdown Procedures: [I/O_2] pressed for >2s**
 
 *	Configure the Register 0x03h -D[1:0]=10 (Hiz) via the I2C control port or Pull PDN low.
@@ -143,6 +144,7 @@ The following displays the ****[USB-C](Documentation/USB-C/)**** PCB. It contain
 
 *	The atmega328 goes to deep sleep, waiting for the next event.
 	
+	<br />
 
 🔸	**Charging Procedures:
 
@@ -154,11 +156,11 @@ The following displays the ****[USB-C](Documentation/USB-C/)**** PCB. It contain
 
 <br />
 	
-3. Once the speaker is ON, the TPR54 is responsible for interacting with Bluetooth Module BT-806 to change the song and volume. (Keep in mind that the TAS5825 can also change just volume) through TX/RX UART pin between the atmega328 and Bluetooth Module BT-806 at 115200 rate data. For example: Once the atmega328 is connected to BT-806, It can send a command to change the volume. For example, 
+**3. Once the speaker is ON, the TPR54 is responsible for interacting with Bluetooth Module BT-806 to change the song and volume. (Keep in mind that the TAS5825 can also change just volume) through TX/RX UART pin between the atmega328 and Bluetooth Module BT-806 at 115200 rate data. For example: Once the atmega328 is connected to BT-806, It can send a command to change the volume. For example,**
 
 ![image](https://user-images.githubusercontent.com/63622787/149187244-66467fe5-f23c-40f3-abe1-30d0a50c8069.png)
 
-And so on. Also, if the BAT SOC is low, alert the user with an LED blinking and start the Shutdown Procedures once the BAT is too low to operate the system > 6V or 15%.
+**And so on. Also, if the BAT SOC is low, alert the user with an LED blinking and start the Shutdown Procedures once the BAT is too low to operate the system > 6V or 15%.**
 
 # To Do List
 -------------------
