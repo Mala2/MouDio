@@ -110,24 +110,22 @@ The following displays the ****[USB-C](Documentation/USB-C/)**** PCB. It contain
 
 Working Principal
 -------------------
-1.	First, I am going to use the TPR54 to turn ON/OFF the system atmega328 [I/O_2] if it pressed for >2s  . This module can send either active High/Low signal output as desire. I will explain later why I need this specific module.
+1. First, I am going to use the TPR54 to turn ON/OFF the system atmega328 [I/O_2] if it is pressed for >2s. This module can send either active High/Low signal output as desired. I will explain later why I need this specific module.
 [![image](https://github.com/Mala2/Bluetooth-Speaker/blob/main/STL-Files/Pics/TPR54-.png?raw=true)](https://www.azoteq.com/images/stories/pdf/proxsense_gpio_trackpad_datasheet.pdf)
 
-
-
-2.	After the wake up the atmega328 going to send high signal to turn on the LT3042 (LDO 3V3) to power the Bluetooth Module BT-806 and the TAS5825 circuitry.
+2. After waking up, the ATmega328 will send a high signal to turn on the LT3042 (LDO 3V3) to power the Bluetooth Module BT-806 and the TAS5825 circuitry.
 
 🔸	**Startup Procedures: [I/O_2] pressed for >2s**
 
 *	The atmega328 wakes up.
 
-*	Turn on the happtic driver as an indication for 1s.
+*	Turn on the haptic driver as an indication for 1s.
 
-*	Turn on the LED driver to reflact the current SOC% of the battery with the help of fuel gauge.
+*	Turn on the LED driver to reflect the current SOC% of the battery with the help of the fuel gauge.
 
 *	Bring up power supplies to LT3042 (LDO 3V3) and load switch if used.
 
-*	Send 3V3 high signal more than 100ms to Bluetooth Module BT-806 through VREG_IN (PLAY/PAUSE) pin to boot the module then bring the signal back to low.
+*	Send a 3V3 high signal of more than 100ms to Bluetooth Module BT-806 through VREG_IN (PLAY/PAUSE) pin to boot the module, then bring the signal back to low.
 
 *	Once power supplies are stable, bring up PDN of TAS5825 to High and wait 5ms (Keep in mind PDN is pulled up to 3V3 normally).
 
