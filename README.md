@@ -1,20 +1,10 @@
 
-
-
+<p align="center">
+   <img src="https://o.remove.bg/downloads/50485287-88fa-4143-8f6e-555137665bad/1-removebg-preview.png"  width=200>  
 
 <p align="center">
    <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/cb13bf78a5724965e46d3dd32a3a264b87d806b8/STL-Files/Pics/LOGO1.svg"  width=400>  
 
-
-#
-<p align="center">
-**⚠  This project is currently still under development ⚠️**
-<p align="center">
-**  ماشاء الله تبارك الله**
-test 1
-
-<p align="center">
-   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Arduino_Logo.svg/2560px-Arduino_Logo.svg.png"  width=200>  
 
 </p>
 <p align="center">
@@ -35,17 +25,16 @@ test 1
 	<a href="https://github.com/Mala2/Bluetooth-Speaker/stargazers" alt="stars">
 		<img src="https://img.shields.io/github/stars/mala2/Bluetooth-Speaker?style=social" /></a>
 
-
+<p align="center">
+**⚠  This project is currently still under development ⚠️**
 
 Overview
 -------------------
+A fully functional Bluetooth Speaker implements most of the modern features. The goal is to have a High-performance portable Bluetooth speaker with a modern design.
 
-A fully function Bluetooth Speaker implement most of the modern features. The goal is to have a High-performance portable Bluetooth speaker. In this speaker, I tried to combine all modern features to have a pure sound and make sure it is easy to build and affordable. Atmega328p at its core, and compatibility with Arduino. Along with BT-806 featuring Qualcomm® CSR8675. And as for the amplifier 2x Texas Instruments® TAS5825M Which has low distortion can output 2 × 30 W.
+In this speaker, I tried combining all modern features to have pure sound and the easiest method to construct it, keeping it affordable. ATmega328P microcontroller at its core, and compatibility with Arduino. Along with FSC-BT806 featuring Qualcomm® CSR8675. And as for the amplifier, 2x Texas Instruments® TAS5825M, Which has low distortion and can output 2x 30 W. 
 
-So far I have built and tested PCBs as prototypes and they work as expected so the hardware design is mainly done. **However, the software part is still under process. and this is where I need most of the help**
-Please refer to the shared files for more information 	
-
-
+So far, I have built and tested PCBs as prototypes, which work as expected. The hardware design is mainly done. However, the software part is still under process; and this is where I need most of the help. Please refer to the shared files for more information.
 
 
 
