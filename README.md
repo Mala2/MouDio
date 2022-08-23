@@ -42,11 +42,9 @@ So far, I have built and tested PCBs as prototypes, which work as expected. The 
 [![image](https://user-images.githubusercontent.com/63622787/149161185-76ba31c0-4a93-4759-8a88-698c24c4fad2.png)](https://a360.co/3340jVi)
 ![Alt Text](https://github.com/Mala2/Bluetooth-Speaker/blob/main/STL-Files/Pics/finalcut.gif?raw=true)
 
-
-
 [*🎨 View on FUSION 360*](https://a360.co/3340jVi)
 <p align="center">
-   <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/7fe38b85bc563e994e8ec79616e6b7430d5f990c/STL-Files/Pics/line%20logo1.svg"  width=1200>  
+   <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/c04483eb9e1d58f311a47dce7c78fef7af7fab0e/STL-Files/Pics/line%20logo%20mb.svg"  width=1200>  
 
 Features
 -------------------
@@ -54,12 +52,11 @@ Features
 * **Connectivity** - The [*FSC-BT806 Feasycom*](https://github.com/Mala2/FSC-BT806) features
  Qualcomm® **CSR8675** - **Bluetooth V5.0** Support HSP, HFP, A2DP, AVRCP, PBAP,MAP,SPP,BLE profile - Coverage up to 15m - 2 microphone inputs - **Audio interfaces:** I²S/PCM and SPDIF
 
-
-* **Power** - Accept **USB C IN** Delivery **Up to 2.5A  Charge Current**  - **USB A OUT** Capable of **10W-5V,2A** - **Low idle power** consumption - **5000mAh** battery capacity upgradeable to **10000mAh**
+* **Power** - Accept **USB C IN** Delivery **Up to 2.5A  Charge Current**  - **USB A OUT** Capable of **10W-5V,2A** - **Low idle power** consumption - **7500mAh** battery capacity upgradeable to **15000mAh**
 
 * **Arduino IDE Programmable Bluetooth-Speaker**
 <p align="center">
-   <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/7fe38b85bc563e994e8ec79616e6b7430d5f990c/STL-Files/Pics/line%20logo1.svg"  width=1200>  
+   <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/c04483eb9e1d58f311a47dce7c78fef7af7fab0e/STL-Files/Pics/line%20logo%20mb.svg"  width=1200>  
 
 Repository Contents
 -------------------
@@ -73,7 +70,6 @@ Repository Contents
 📄 **[Documentation](Documentation)** • Data sheets, other references
 
 🎲 **[Prototype](Prototype)** • Evaluation board, Cases, etc...
-
 
 <p align="center">
    <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/7fe38b85bc563e994e8ec79616e6b7430d5f990c/STL-Files/Pics/line%20logo1.svg"  width=1200>  
