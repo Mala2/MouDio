@@ -1,20 +1,10 @@
 
-
-
+<p align="center">
+   <img src="https://o.remove.bg/downloads/50485287-88fa-4143-8f6e-555137665bad/1-removebg-preview.png"  width=200>  
 
 <p align="center">
    <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/cb13bf78a5724965e46d3dd32a3a264b87d806b8/STL-Files/Pics/LOGO1.svg"  width=400>  
 
-
-#
-<p align="center">
-**⚠  This project is currently still under development ⚠️**
-<p align="center">
-**  ماشاء الله تبارك الله**
-test 1
-
-<p align="center">
-   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Arduino_Logo.svg/2560px-Arduino_Logo.svg.png"  width=200>  
 
 </p>
 <p align="center">
@@ -35,17 +25,16 @@ test 1
 	<a href="https://github.com/Mala2/Bluetooth-Speaker/stargazers" alt="stars">
 		<img src="https://img.shields.io/github/stars/mala2/Bluetooth-Speaker?style=social" /></a>
 
-
+<p align="center">
+**⚠  This project is currently still under development ⚠️**
 
 Overview
 -------------------
+A fully functional Bluetooth Speaker implements most of the modern features. The goal is to have a High-performance portable Bluetooth speaker with a modern design.
 
-A fully function Bluetooth Speaker implement most of the modern features. The goal is to have a High-performance portable Bluetooth speaker. In this speaker, I tried to combine all modern features to have a pure sound and make sure it is easy to build and affordable. Atmega328p at its core, and compatibility with Arduino. Along with BT-806 featuring Qualcomm® CSR8675. And as for the amplifier 2x Texas Instruments® TAS5825M Which has low distortion can output 2 × 30 W.
+In this speaker, I tried combining all modern features to have pure sound and the easiest method to construct it, keeping it affordable. ATmega328P microcontroller at its core, and compatibility with Arduino. Along with FSC-BT806 featuring Qualcomm® CSR8675. And as for the amplifier, 2x Texas Instruments® TAS5825M, Which has low distortion and can output 2x 30 W. 
 
-So far I have built and tested PCBs as prototypes and they work as expected so the hardware design is mainly done. **However, the software part is still under process. and this is where I need most of the help**
-Please refer to the shared files for more information 	
-
-
+So far, I have built and tested PCBs as prototypes, which work as expected. The hardware design is mainly done. However, the software part is still under process; and this is where I need most of the help. Please refer to the shared files for more information.
 
 
 
@@ -53,24 +42,21 @@ Please refer to the shared files for more information
 [![image](https://user-images.githubusercontent.com/63622787/149161185-76ba31c0-4a93-4759-8a88-698c24c4fad2.png)](https://a360.co/3340jVi)
 ![Alt Text](https://github.com/Mala2/Bluetooth-Speaker/blob/main/STL-Files/Pics/finalcut.gif?raw=true)
 
-
-
 [*🎨 View on FUSION 360*](https://a360.co/3340jVi)
 <p align="center">
-   <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/7fe38b85bc563e994e8ec79616e6b7430d5f990c/STL-Files/Pics/line%20logo1.svg"  width=1200>  
+   <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/d2fb2cd54b1a1c7008afc3e6f91d7903d9749cc6/STL-Files/Pics/line%20logo%20v3.svg"  width=1200>  
 
 Features
 -------------------
-* **Amplifier** - 2x  Texas Instruments® [*TAS5825M*](https://www.ti.com/product/TAS5825M) Which has low distortion can output 2 × 30 W, 2.0 Mode (8-Ω, 24 V, THD+N=1%)
+* **Amplifier** - 2x  Texas Instruments® [*TAS5825M*](https://www.ti.com/product/TAS5825M) Which has low distortion can output 2x 30 W, 2.0 Mode (8-Ω, 24 V, THD+N=1%)
 * **Connectivity** - The [*FSC-BT806 Feasycom*](https://github.com/Mala2/FSC-BT806) features
  Qualcomm® **CSR8675** - **Bluetooth V5.0** Support HSP, HFP, A2DP, AVRCP, PBAP,MAP,SPP,BLE profile - Coverage up to 15m - 2 microphone inputs - **Audio interfaces:** I²S/PCM and SPDIF
 
-
-* **Power** - Accept **USB C IN** Delivery **Up to 2.5A  Charge Current**  - **USB A OUT** Capable of **10W-5V,2A** - **Low idle power** consumption - **5000mAh** battery capacity upgradeable to **10000mAh**
+* **Power** - Accept **USB C IN** Delivery **Up to 2.5A  Charge Current**  - **USB A OUT** Capable of **10W-5V,2A** - **Low idle power** consumption - **7500mAh** battery capacity upgradeable to **15000mAh**
 
 * **Arduino IDE Programmable Bluetooth-Speaker**
 <p align="center">
-   <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/7fe38b85bc563e994e8ec79616e6b7430d5f990c/STL-Files/Pics/line%20logo1.svg"  width=1200>  
+   <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/d2fb2cd54b1a1c7008afc3e6f91d7903d9749cc6/STL-Files/Pics/line%20logo%20v3.svg"  width=1200>  
 
 Repository Contents
 -------------------
@@ -81,26 +67,25 @@ Repository Contents
 
 💻 **[Software](Software)** • Codes and Libraries for use with the **Bluetooth-Speaker**
 
-📄 **[Documentation](Documentation)** • Data sheets, other references
+📄 **[Documentation](Documentation)** • Datasheets, other references
 
-🎲 **[Prototype](Prototype)** • Evaluation board, Cases, etc...
-
+🎲 **[Prototype](Prototype)** • Evaluation board, Cases, etc.
 
 <p align="center">
-   <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/7fe38b85bc563e994e8ec79616e6b7430d5f990c/STL-Files/Pics/line%20logo1.svg"  width=1200>  
+   <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/d2fb2cd54b1a1c7008afc3e6f91d7903d9749cc6/STL-Files/Pics/line%20logo%20v3.svg"  width=1200>  
 
 Block Diagram
 -------------------
-This is the latest Block Diagram, Things may change and probberly there is some discrepancy between the schematic and the block diagram.
+The following displays the latest Block Diagram; Things may change, and probably there may be some discrepancy between the schematic and the block diagram.
 [![image](https://user-images.githubusercontent.com/63622787/155908226-ed063e92-9d1a-49b5-a607-8d2bb6cb78d0.png)](Hardware)
 
 
 <p align="center">
-   <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/7fe38b85bc563e994e8ec79616e6b7430d5f990c/STL-Files/Pics/line%20logo1.svg"  width=1200>  
+   <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/d2fb2cd54b1a1c7008afc3e6f91d7903d9749cc6/STL-Files/Pics/line%20logo%20v3.svg"  width=1200>  
 
 Schematic
 -------------------
-🟢This is the ****[Main](Documentation/Main/)**** PCB it contain the **Amplifier** - 2x  Texas Instruments® **TAS5825M** and The **FSC-BT806 Feasycom**
+The following displays the ****[Main](Documentation/Main/)**** PCB. It contain the **Amplifier** - 2x  Texas Instruments® **TAS5825M** and The **FSC-BT806 Feasycom**
 
 [![image](https://user-images.githubusercontent.com/63622787/155482345-e0b11533-9b19-4149-a2c4-2ca03223af79.png)](https://a360.co/3FjaXoa)
 [![image](https://user-images.githubusercontent.com/63622787/155478210-23ff49bb-4f19-4fd2-8a5d-6a32a56c2e9a.png)](https://a360.co/3FjaXoa)
@@ -109,9 +94,9 @@ Schematic
 [📐 *View on FUSION 360*](https://a360.co/3FjaXoa)
 
 <p align="center">
-   <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/7fe38b85bc563e994e8ec79616e6b7430d5f990c/STL-Files/Pics/line%20logo1.svg"  width=1200>  
+   <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/d2fb2cd54b1a1c7008afc3e6f91d7903d9749cc6/STL-Files/Pics/line%20logo%20v3.svg"  width=1200>  
 
-🟢This is the ****[USB-C](Documentation/USB-C/)**** PCB it contain the **MP2639** - 2S charging IC and The **Atmega328**
+The following displays the ****[USB-C](Documentation/USB-C/)**** PCB. It contain the **MP2639** - 2S charging IC and The **ATmega328**
 
 [![image](https://user-images.githubusercontent.com/63622787/155482459-88b97265-02f7-410f-854f-1922078902bf.png)](https://a360.co/3fcBBV4)
 [![image](https://user-images.githubusercontent.com/63622787/155482541-2bd08a8a-2dc6-4f6b-baf4-197b943a6eee.png)](https://a360.co/3fcBBV4)
@@ -121,32 +106,31 @@ Schematic
 [📐 *View on FUSION 360*](https://a360.co/3fcBBV4)
 
 <p align="center">
-   <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/7fe38b85bc563e994e8ec79616e6b7430d5f990c/STL-Files/Pics/line%20logo1.svg"  width=1200>  	
+   <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/d2fb2cd54b1a1c7008afc3e6f91d7903d9749cc6/STL-Files/Pics/line%20logo%20v3.svg"  width=1200>  	
 
 Working Principal
 -------------------
-1.	First, I am going to use the TPR54 to turn ON/OFF the system atmega328 [I/O_2] if it pressed for >2s  . This module can send either active High/Low signal output as desire. I will explain later why I need this specific module.
+1. First, I am going to use the TPR54 to turn ON/OFF the system atmega328 [I/O_2] if it is pressed for >2s. This module can send either active High/Low signal output as desired. I will explain later why I need this specific module.
+	
 [![image](https://github.com/Mala2/Bluetooth-Speaker/blob/main/STL-Files/Pics/TPR54-.png?raw=true)](https://www.azoteq.com/images/stories/pdf/proxsense_gpio_trackpad_datasheet.pdf)
 
-
-
-2.	After the wake up the atmega328 going to send high signal to turn on the LT3042 (LDO 3V3) to power the Bluetooth Module BT-806 and the TAS5825 circuitry.
+2. After waking up, the ATmega328 will send a high signal to turn on the LT3042 (LDO 3V3) to power the Bluetooth Module BT-806 and the TAS5825 circuitry.
 
 🔸	**Startup Procedures: [I/O_2] pressed for >2s**
 
 *	The atmega328 wakes up.
 
-*	Turn on the happtic driver as an indication for 1s.
+*	Turn on the haptic driver as an indication for 1s.
 
-*	Turn on the LED driver to reflact the current SOC% of the battery with the help of fuel gauge.
+*	Turn on the LED driver to reflect the current SOC% of the battery with the help of the fuel gauge.
 
 *	Bring up power supplies to LT3042 (LDO 3V3) and load switch if used.
 
-*	Send 3V3 high signal more than 100ms to Bluetooth Module BT-806 through VREG_IN (PLAY/PAUSE) pin to boot the module then bring the signal back to low.
+*	Send a 3V3 high signal of more than 100ms to Bluetooth Module BT-806 through VREG_IN (PLAY/PAUSE) pin to boot the module, then bring the signal back to low.
 
 *	Once power supplies are stable, bring up PDN of TAS5825 to High and wait 5ms (Keep in mind PDN is pulled up to 3V3 normally).
 
-*	Set the TAS5825 into HiZ state and enable DSP via the I2C control port.
+*	Set the TAS5825 into the HiZ state and enable DSP via the I2C control port.
 
 *	Wait 5ms at least. Then initialize the DSP Coefficient, then set the TAS5825 to Play state.
 
@@ -155,27 +139,28 @@ Working Principal
 
 *	Configure the Register 0x03h -D[1:0]=10 (Hiz) via the I2C control port or Pull PDN low.
 
-*	Wait at least 6ms (this time depends on the LRCLK rate ,digital volume and digital volume ramp down rate).
+*	Wait at least 6ms (this time depends on the LRCLK rate, digital volume, and digital volume ramp-down rate).
 
 *	Bring down power supplies LT3042 (LDO 3V3) and load switch if used.
 
-*	The atmega328 goes to deep sleep waiting for the next event.
+*	The atmega328 goes to deep sleep, waiting for the next event.
+	
 
 🔸	**Charging Procedures:
 
-*	Once the charge input is present the MAX77962 will send an interrupter either through INTB, INOKB pins
+*	Once the charge input is present, the MAX77962 will send an interrupter either through INTB, INOKB pins
 
-*	Turn on the happtic driver as an indication for 1s.
+*	Turn on the haptic driver as an indication for 1s.
 
-*	Display the the current SOC% with 4 LEDs with help of LED driver as long as the charge input is present.
+*	Display the current SOC% with 4 LEDs with the help of an LED driver as long as the charge input is present.
 
-3.	Once the speaker is ON the TPR54 is responsible to interact with Bluetooth Module BT-806 to change the song and volume. (Keep in mind that the TAS5825 can also change just volume)
-through TX/RX UART pin between the atmega328 and Bluetooth Module BT-806 at 115200 rate data.
-	For example: Once the atmega328 is connected to BT-806 It can send a command to change the volume say
+<br />
+	
+3. Once the speaker is ON, the TPR54 is responsible for interacting with Bluetooth Module BT-806 to change the song and volume. (Keep in mind that the TAS5825 can also change just volume) through TX/RX UART pin between the atmega328 and Bluetooth Module BT-806 at 115200 rate data. For example: Once the atmega328 is connected to BT-806, It can send a command to change the volume. For example, 
 
 ![image](https://user-images.githubusercontent.com/63622787/149187244-66467fe5-f23c-40f3-abe1-30d0a50c8069.png)
 
-And so on. Also, if the BAT SOC is low alert the user with an LED blinking and start the Shutdown Procedures once the BAT is to low to operate the system > 6V or 15%.
+And so on. Also, if the BAT SOC is low, alert the user with an LED blinking and start the Shutdown Procedures once the BAT is too low to operate the system > 6V or 15%.
 
 To Do List
 -------------------
@@ -206,7 +191,7 @@ To Do List
 
 🔴 **To be continued
 	<p align="center">
-   <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/7fe38b85bc563e994e8ec79616e6b7430d5f990c/STL-Files/Pics/line%20logo1.svg"  width=1200>  
+   <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/d2fb2cd54b1a1c7008afc3e6f91d7903d9749cc6/STL-Files/Pics/line%20logo%20v3.svg"  width=1200>  
 
 Components
 -------------------
@@ -256,4 +241,4 @@ M3 3mm M3-0.5 Brass Threaded Metal Heat Set Screw Inserts for 3D Printing
 
 [![Mo's github stats](https://github-readme-stats.vercel.app/api?username=Mala2&count_private=true&show_icons=true&theme=radical&hide_rank=false)](https://github.com/anuraghazra/github-readme-stats)
 <p align="center">
-   <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/7fe38b85bc563e994e8ec79616e6b7430d5f990c/STL-Files/Pics/line%20logo1.svg"  width=1200>  
+   <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/d2fb2cd54b1a1c7008afc3e6f91d7903d9749cc6/STL-Files/Pics/line%20logo%20v3.svg"  width=1200>  
