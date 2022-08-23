@@ -129,7 +129,7 @@ Working Principal
 
 *	Once power supplies are stable, bring up PDN of TAS5825 to High and wait 5ms (Keep in mind PDN is pulled up to 3V3 normally).
 
-*	Set the TAS5825 into HiZ state and enable DSP via the I2C control port.
+*	Set the TAS5825 into the HiZ state and enable DSP via the I2C control port.
 
 *	Wait 5ms at least. Then initialize the DSP Coefficient, then set the TAS5825 to Play state.
 
@@ -138,27 +138,26 @@ Working Principal
 
 *	Configure the Register 0x03h -D[1:0]=10 (Hiz) via the I2C control port or Pull PDN low.
 
-*	Wait at least 6ms (this time depends on the LRCLK rate ,digital volume and digital volume ramp down rate).
+*	Wait at least 6ms (this time depends on the LRCLK rate, digital volume, and digital volume ramp-down rate).
 
 *	Bring down power supplies LT3042 (LDO 3V3) and load switch if used.
 
-*	The atmega328 goes to deep sleep waiting for the next event.
+*	The atmega328 goes to deep sleep, waiting for the next event.
+	
 
 🔸	**Charging Procedures:
 
-*	Once the charge input is present the MAX77962 will send an interrupter either through INTB, INOKB pins
+*	Once the charge input is present, the MAX77962 will send an interrupter either through INTB, INOKB pins
 
-*	Turn on the happtic driver as an indication for 1s.
+*	Turn on the haptic driver as an indication for 1s.
 
-*	Display the the current SOC% with 4 LEDs with help of LED driver as long as the charge input is present.
-
-3.	Once the speaker is ON the TPR54 is responsible to interact with Bluetooth Module BT-806 to change the song and volume. (Keep in mind that the TAS5825 can also change just volume)
-through TX/RX UART pin between the atmega328 and Bluetooth Module BT-806 at 115200 rate data.
-	For example: Once the atmega328 is connected to BT-806 It can send a command to change the volume say
+*	Display the current SOC% with 4 LEDs with the help of an LED driver as long as the charge input is present.
+	
+3. Once the speaker is ON, the TPR54 is responsible for interacting with Bluetooth Module BT-806 to change the song and volume. (Keep in mind that the TAS5825 can also change just volume) through TX/RX UART pin between the atmega328 and Bluetooth Module BT-806 at 115200 rate data. For example: Once the atmega328 is connected to BT-806, It can send a command to change the volume. For example, 
 
 ![image](https://user-images.githubusercontent.com/63622787/149187244-66467fe5-f23c-40f3-abe1-30d0a50c8069.png)
 
-And so on. Also, if the BAT SOC is low alert the user with an LED blinking and start the Shutdown Procedures once the BAT is to low to operate the system > 6V or 15%.
+And so on. Also, if the BAT SOC is low, alert the user with an LED blinking and start the Shutdown Procedures once the BAT is too low to operate the system > 6V or 15%.
 
 To Do List
 -------------------
