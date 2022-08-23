@@ -67,9 +67,9 @@ Repository Contents
 
 💻 **[Software](Software)** • Codes and Libraries for use with the **Bluetooth-Speaker**
 
-📄 **[Documentation](Documentation)** • Data sheets, other references
+📄 **[Documentation](Documentation)** • Datasheets, other references
 
-🎲 **[Prototype](Prototype)** • Evaluation board, Cases, etc...
+🎲 **[Prototype](Prototype)** • Evaluation board, Cases, etc.
 
 <p align="center">
    <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/d2fb2cd54b1a1c7008afc3e6f91d7903d9749cc6/STL-Files/Pics/line%20logo%20v3.svg"  width=1200>  
