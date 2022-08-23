@@ -85,7 +85,7 @@ The following displays the latest Block Diagram; Things may change, and probably
 
 Schematic
 -------------------
-🟢This is the ****[Main](Documentation/Main/)**** PCB it contain the **Amplifier** - 2x  Texas Instruments® **TAS5825M** and The **FSC-BT806 Feasycom**
+The following displays the ****[Main](Documentation/Main/)**** PCB. It contain the **Amplifier** - 2x  Texas Instruments® **TAS5825M** and The **FSC-BT806 Feasycom**
 
 [![image](https://user-images.githubusercontent.com/63622787/155482345-e0b11533-9b19-4149-a2c4-2ca03223af79.png)](https://a360.co/3FjaXoa)
 [![image](https://user-images.githubusercontent.com/63622787/155478210-23ff49bb-4f19-4fd2-8a5d-6a32a56c2e9a.png)](https://a360.co/3FjaXoa)
