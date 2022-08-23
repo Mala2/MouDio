@@ -56,7 +56,7 @@ Features
 
 * **Arduino IDE Programmable Bluetooth-Speaker**
 <p align="center">
-   <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/c04483eb9e1d58f311a47dce7c78fef7af7fab0e/STL-Files/Pics/line%20logo%20mb.svg"  width=1200>  
+   <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/d2fb2cd54b1a1c7008afc3e6f91d7903d9749cc6/STL-Files/Pics/line%20logo%20v3.svg"  width=1200>  
 
 Repository Contents
 -------------------
@@ -72,7 +72,7 @@ Repository Contents
 🎲 **[Prototype](Prototype)** • Evaluation board, Cases, etc...
 
 <p align="center">
-   <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/7fe38b85bc563e994e8ec79616e6b7430d5f990c/STL-Files/Pics/line%20logo1.svg"  width=1200>  
+   <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/d2fb2cd54b1a1c7008afc3e6f91d7903d9749cc6/STL-Files/Pics/line%20logo%20v3.svg"  width=1200>  
 
 Block Diagram
 -------------------
@@ -81,7 +81,7 @@ This is the latest Block Diagram, Things may change and probberly there is some 
 
 
 <p align="center">
-   <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/7fe38b85bc563e994e8ec79616e6b7430d5f990c/STL-Files/Pics/line%20logo1.svg"  width=1200>  
+   <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/d2fb2cd54b1a1c7008afc3e6f91d7903d9749cc6/STL-Files/Pics/line%20logo%20v3.svg"  width=1200>  
 
 Schematic
 -------------------
@@ -94,7 +94,7 @@ Schematic
 [📐 *View on FUSION 360*](https://a360.co/3FjaXoa)
 
 <p align="center">
-   <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/7fe38b85bc563e994e8ec79616e6b7430d5f990c/STL-Files/Pics/line%20logo1.svg"  width=1200>  
+   <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/d2fb2cd54b1a1c7008afc3e6f91d7903d9749cc6/STL-Files/Pics/line%20logo%20v3.svg"  width=1200>  
 
 🟢This is the ****[USB-C](Documentation/USB-C/)**** PCB it contain the **MP2639** - 2S charging IC and The **Atmega328**
 
@@ -106,7 +106,7 @@ Schematic
 [📐 *View on FUSION 360*](https://a360.co/3fcBBV4)
 
 <p align="center">
-   <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/7fe38b85bc563e994e8ec79616e6b7430d5f990c/STL-Files/Pics/line%20logo1.svg"  width=1200>  	
+   <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/d2fb2cd54b1a1c7008afc3e6f91d7903d9749cc6/STL-Files/Pics/line%20logo%20v3.svg"  width=1200>  	
 
 Working Principal
 -------------------
@@ -191,7 +191,7 @@ To Do List
 
 🔴 **To be continued
 	<p align="center">
-   <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/7fe38b85bc563e994e8ec79616e6b7430d5f990c/STL-Files/Pics/line%20logo1.svg"  width=1200>  
+   <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/d2fb2cd54b1a1c7008afc3e6f91d7903d9749cc6/STL-Files/Pics/line%20logo%20v3.svg"  width=1200>  
 
 Components
 -------------------
@@ -241,4 +241,4 @@ M3 3mm M3-0.5 Brass Threaded Metal Heat Set Screw Inserts for 3D Printing
 
 [![Mo's github stats](https://github-readme-stats.vercel.app/api?username=Mala2&count_private=true&show_icons=true&theme=radical&hide_rank=false)](https://github.com/anuraghazra/github-readme-stats)
 <p align="center">
-   <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/7fe38b85bc563e994e8ec79616e6b7430d5f990c/STL-Files/Pics/line%20logo1.svg"  width=1200>  
+   <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/d2fb2cd54b1a1c7008afc3e6f91d7903d9749cc6/STL-Files/Pics/line%20logo%20v3.svg"  width=1200>  
