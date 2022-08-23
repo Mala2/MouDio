@@ -96,7 +96,7 @@ The following displays the ****[Main](Documentation/Main/)**** PCB. It contain t
 <p align="center">
    <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/d2fb2cd54b1a1c7008afc3e6f91d7903d9749cc6/STL-Files/Pics/line%20logo%20v3.svg"  width=1200>  
 
-🟢This is the ****[USB-C](Documentation/USB-C/)**** PCB it contain the **MP2639** - 2S charging IC and The **Atmega328**
+The following displays the ****[USB-C](Documentation/USB-C/)**** PCB. It contain the **MP2639** - 2S charging IC and The **ATmega328**
 
 [![image](https://user-images.githubusercontent.com/63622787/155482459-88b97265-02f7-410f-854f-1922078902bf.png)](https://a360.co/3fcBBV4)
 [![image](https://user-images.githubusercontent.com/63622787/155482541-2bd08a8a-2dc6-4f6b-baf4-197b943a6eee.png)](https://a360.co/3fcBBV4)
