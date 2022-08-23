@@ -48,7 +48,7 @@ So far, I have built and tested PCBs as prototypes, which work as expected. The 
 
 Features
 -------------------
-* **Amplifier** - 2x  Texas Instruments® [*TAS5825M*](https://www.ti.com/product/TAS5825M) Which has low distortion can output 2 × 30 W, 2.0 Mode (8-Ω, 24 V, THD+N=1%)
+* **Amplifier** - 2x  Texas Instruments® [*TAS5825M*](https://www.ti.com/product/TAS5825M) Which has low distortion can output 2x 30 W, 2.0 Mode (8-Ω, 24 V, THD+N=1%)
 * **Connectivity** - The [*FSC-BT806 Feasycom*](https://github.com/Mala2/FSC-BT806) features
  Qualcomm® **CSR8675** - **Bluetooth V5.0** Support HSP, HFP, A2DP, AVRCP, PBAP,MAP,SPP,BLE profile - Coverage up to 15m - 2 microphone inputs - **Audio interfaces:** I²S/PCM and SPDIF
 
