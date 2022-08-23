@@ -75,6 +75,7 @@ So far, I have built and tested PCBs as prototypes, which work as expected. The 
 # Block Diagram
 
 The following displays the latest Block Diagram; Things may change, and probably there may be some discrepancy between the schematic and the block diagram.
+	
 [![image](https://user-images.githubusercontent.com/63622787/155908226-ed063e92-9d1a-49b5-a607-8d2bb6cb78d0.png)](Hardware)
 
 
@@ -82,7 +83,7 @@ The following displays the latest Block Diagram; Things may change, and probably
    <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/d2fb2cd54b1a1c7008afc3e6f91d7903d9749cc6/STL-Files/Pics/line%20logo%20v3.svg"  width=1200>  
 
 # Schematic
--------------------
+
 The following displays the ****[Main](Documentation/Main/)**** PCB. It contain the **Amplifier** - 2x  Texas Instruments® **TAS5825M** and The **FSC-BT806 Feasycom**
 
 [![image](https://user-images.githubusercontent.com/63622787/155482345-e0b11533-9b19-4149-a2c4-2ca03223af79.png)](https://a360.co/3FjaXoa)
@@ -107,7 +108,7 @@ The following displays the ****[USB-C](Documentation/USB-C/)**** PCB. It contain
    <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/d2fb2cd54b1a1c7008afc3e6f91d7903d9749cc6/STL-Files/Pics/line%20logo%20v3.svg"  width=1200>  	
 
 # Working Principal
--------------------
+
 **1. First, I am going to use the TPR54 to turn ON/OFF the system atmega328 [I/O_2] if it is pressed for >2s. This module can send either active High/Low signal output as desired. I will explain later why I need this specific module.**
 	
 [![image](https://github.com/Mala2/Bluetooth-Speaker/blob/main/STL-Files/Pics/TPR54-.png?raw=true)](https://www.azoteq.com/images/stories/pdf/proxsense_gpio_trackpad_datasheet.pdf)
@@ -163,7 +164,7 @@ The following displays the ****[USB-C](Documentation/USB-C/)**** PCB. It contain
 **And so on. Also, if the BAT SOC is low, alert the user with an LED blinking and start the Shutdown Procedures once the BAT is too low to operate the system > 6V or 15%.**
 
 # To Do List
--------------------
+
 
 🔴 **Need help with software part.**
 
@@ -193,8 +194,8 @@ The following displays the ****[USB-C](Documentation/USB-C/)**** PCB. It contain
 	<p align="center">
    <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/d2fb2cd54b1a1c7008afc3e6f91d7903d9749cc6/STL-Files/Pics/line%20logo%20v3.svg"  width=1200>  
 
-Components
--------------------
+# Components
+
 
 🟢**Speakers**
 
