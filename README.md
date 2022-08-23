@@ -152,6 +152,8 @@ Working Principal
 *	Turn on the haptic driver as an indication for 1s.
 
 *	Display the current SOC% with 4 LEDs with the help of an LED driver as long as the charge input is present.
+
+<br />
 	
 3. Once the speaker is ON, the TPR54 is responsible for interacting with Bluetooth Module BT-806 to change the song and volume. (Keep in mind that the TAS5825 can also change just volume) through TX/RX UART pin between the atmega328 and Bluetooth Module BT-806 at 115200 rate data. For example: Once the atmega328 is connected to BT-806, It can send a command to change the volume. For example, 
 
