@@ -11,7 +11,7 @@
 **⚠  This project is currently still under development ⚠️**
 <p align="center">
 **  ماشاء الله تبارك الله**
-
+test 1
 
 <p align="center">
    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Arduino_Logo.svg/2560px-Arduino_Logo.svg.png"  width=200>  
@@ -93,7 +93,7 @@ Block Diagram
 -------------------
 This is the latest Block Diagram, Things may change and probberly there is some discrepancy between the schematic and the block diagram.
 [![image](https://user-images.githubusercontent.com/63622787/155908226-ed063e92-9d1a-49b5-a607-8d2bb6cb78d0.png)](Hardware)
-	
+
 
 <p align="center">
    <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/7fe38b85bc563e994e8ec79616e6b7430d5f990c/STL-Files/Pics/line%20logo1.svg"  width=1200>  
@@ -161,7 +161,7 @@ Working Principal
 
 *	The atmega328 goes to deep sleep waiting for the next event.
 
-🔸	**Charging Procedures: 
+🔸	**Charging Procedures:
 
 *	Once the charge input is present the MAX77962 will send an interrupter either through INTB, INOKB pins
 
@@ -196,14 +196,14 @@ To Do List
 
 7- if charger inserted activate the haptic driver as a feedback.✅
 
-9- If the charger is inserted increase the volume range to be even higher as more power will be provided. This can be done if 0x4C register is changed accordingly with the attached and disattached of the charger. 
-	
-10- add resetFunc() after touching the middle TAP more than 10s. 
-	
-11- get the header file for the TAS5825M to act as Dual stereo 2.2 and output the best sounds. You need to get access of the PPC3 Softwware and Hardware to test the setup and extract the best settings. 
-	
-12- create the initialization code that configures both the bq28z610 fuel gauge to work with the Arduino Uno and create a Library. creating a “control” object for the bq28z610 fuel gauge. This includes configuring the IC’s registers via I2C to set configurations. In addition, looking to expose all features of the target IC’s in code so that a user can easily configure those features using variables. 
-	
+9- If the charger is inserted increase the volume range to be even higher as more power will be provided. This can be done if 0x4C register is changed accordingly with the attached and disattached of the charger.
+
+10- add resetFunc() after touching the middle TAP more than 10s.
+
+11- get the header file for the TAS5825M to act as Dual stereo 2.2 and output the best sounds. You need to get access of the PPC3 Softwware and Hardware to test the setup and extract the best settings.
+
+12- create the initialization code that configures both the bq28z610 fuel gauge to work with the Arduino Uno and create a Library. creating a “control” object for the bq28z610 fuel gauge. This includes configuring the IC’s registers via I2C to set configurations. In addition, looking to expose all features of the target IC’s in code so that a user can easily configure those features using variables.
+
 🔴 **To be continued
 	<p align="center">
    <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/7fe38b85bc563e994e8ec79616e6b7430d5f990c/STL-Files/Pics/line%20logo1.svg"  width=1200>  
