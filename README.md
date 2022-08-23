@@ -76,7 +76,7 @@ Repository Contents
 
 Block Diagram
 -------------------
-This is the latest Block Diagram; Things may change, and probably there may be some discrepancy between the schematic and the block diagram.
+The following displays the latest Block Diagram; Things may change, and probably there may be some discrepancy between the schematic and the block diagram.
 [![image](https://user-images.githubusercontent.com/63622787/155908226-ed063e92-9d1a-49b5-a607-8d2bb6cb78d0.png)](Hardware)
 
 
