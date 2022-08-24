@@ -1,6 +1,6 @@
 
 <p align="center">
-   <img src="https://o.remove.bg/downloads/50485287-88fa-4143-8f6e-555137665bad/1-removebg-preview.png"  width=200>  
+   <img src="https://github.com/Mala2/Bluetooth-Speaker/blob/main/STL-Files/Pics/1-removebg-preview%2010.39.27%20PM.png?raw=true"  width=200>  
 
 <p align="center">
    <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/cb13bf78a5724965e46d3dd32a3a264b87d806b8/STL-Files/Pics/LOGO1.svg"  width=400>  
