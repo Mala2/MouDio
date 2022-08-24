@@ -88,8 +88,8 @@ The following displays the latest Block Diagram; Things may change, and probably
 The following displays the ****[Main](Documentation/Main/)**** PCB. It contain the **Amplifier** - 2x  Texas Instruments® **TAS5825M** and The **FSC-BT806 Feasycom**
 
 [![image](https://user-images.githubusercontent.com/63622787/155482345-e0b11533-9b19-4149-a2c4-2ca03223af79.png)](https://a360.co/3FjaXoa)
-[![image](https://user-images.githubusercontent.com/63622787/155478210-23ff49bb-4f19-4fd2-8a5d-6a32a56c2e9a.png)](https://a360.co/3FjaXoa)
-[![image](https://user-images.githubusercontent.com/63622787/155478343-42e6b0ed-c33d-4bdd-bf7c-dd120df9b8a5.png)](https://a360.co/3FjaXoa)
+[![image](https://user-images.githubusercontent.com/45481006/186342475-d2550cc2-e3f7-4a2f-9ba8-303a9ed3de3a.png)](https://a360.co/3FjaXoa)
+[![image](https://user-images.githubusercontent.com/45481006/186342066-af0256f1-0940-43fb-a0d6-433cbf231c21.png)](https://a360.co/3FjaXoa)
 
 [📐 *View on FUSION 360*](https://a360.co/3FjaXoa)
 
