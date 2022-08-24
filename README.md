@@ -165,7 +165,7 @@ The following displays the ****[USB-C](Documentation/USB-C/)**** PCB. It contain
 # To Do List
 
 
-🔴 **Need help with software part.**
+♦️ **Need help with software part.**
 
 ✅ 1- Turns the bt806 after turning the 3v3. Sending a high signal to Vreg for > 2s Upon waking up then remain Low. (OR MOSFET NETWORK)
 
@@ -189,7 +189,7 @@ The following displays the ****[USB-C](Documentation/USB-C/)**** PCB. It contain
 
 12- create the initialization code that configures both the bq28z610 fuel gauge to work with the Arduino Uno and create a Library. creating a “control” object for the bq28z610 fuel gauge. This includes configuring the IC’s registers via I2C to set configurations. In addition, looking to expose all features of the target IC’s in code so that a user can easily configure those features using variables.
 
-🔴 **To be continued
+♦️ **To be continued
 	<p align="center">
    <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/d2fb2cd54b1a1c7008afc3e6f91d7903d9749cc6/STL-Files/Pics/line%20logo%20v3.svg"  width=1200>  
 
