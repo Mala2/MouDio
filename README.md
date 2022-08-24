@@ -167,19 +167,19 @@ The following displays the ****[USB-C](Documentation/USB-C/)**** PCB. It contain
 
 🔴 **Need help with software part.**
 
-1- Turns the bt806 after turning the 3v3. Sending a high signal to Vreg for > 2s Upon waking up then remain Low. (OR MOSFET NETWORK)✅
+✅ 1- Turns the bt806 after turning the 3v3. Sending a high signal to Vreg for > 2s Upon waking up then remain Low. (OR MOSFET NETWORK)
 
-2- if the battery < 15% shut down the speaker. ✅
+✅ 2- if the battery < 15% shut down the speaker.
 
-3- if the battery <35% set the MAX volume to be less than 70%. In other words reduces the volume to not consume more power. TAS5825 has register 0x4c and 0x54 (AGAIN or DIGITAL_VOL) to set that. ✅
+✅ 3- if the battery <35% set the MAX volume to be less than 70%. In other words reduces the volume to not consume more power. TAS5825 has register 0x4c and 0x54 (AGAIN or DIGITAL_VOL) to set that.
 
 4- (after checking the vol range of bt806), send a command AT+SPKVOL and check the volume range of bt806 sent. After that set the TAS5825 accordingly. That can be done with two registers either 0x4c and 0x54 (AGAIN or DIGITAL_VOL).
 
-5- For example once the user swap to right (Next Song). The leds should indicate that. From left to right emotions. ✅
+✅ 5- For example once the user swap to right (Next Song). The leds should indicate that. From left to right emotions.
 
 6- if no sounds or connection established for 30 min turn off the speaker. Either by checking the current flow from the fuel gauge or the BT-806 is not in play status or the TAS5825 register 0x03 is mute status for more than 30 min.
 
-7- if charger inserted activate the haptic driver as a feedback.✅
+✅ 7- if charger inserted activate the haptic driver as a feedback.
 
 9- If the charger is inserted increase the volume range to be even higher as more power will be provided. This can be done if 0x4C register is changed accordingly with the attached and disattached of the charger.
 
