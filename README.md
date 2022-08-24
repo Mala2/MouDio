@@ -164,7 +164,6 @@ The following displays the ****[USB-C](Documentation/USB-C/)**** PCB. It contain
 
 # To Do List
 
-
 ♦️ **Need help with software part.**
 
 ✅ 1- Turns the BT806 after turning the 3v3. Sending a high signal to Vreg for > 2s upon waking up, then remain Low. (OR MOSFET NETWORK)
@@ -192,7 +191,6 @@ The following displays the ****[USB-C](Documentation/USB-C/)**** PCB. It contain
 ♦️ TO BE CONTINUED
 	<p align="center">
    <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/d2fb2cd54b1a1c7008afc3e6f91d7903d9749cc6/STL-Files/Pics/line%20logo%20v3.svg"  width=1200>  
-
 # Components
 
 🔷 **Speakers**
