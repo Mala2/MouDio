@@ -26,7 +26,7 @@
 		<img src="https://img.shields.io/github/stars/mala2/Bluetooth-Speaker?style=social" /></a>
 
 <p align="center">
-⚠ **This project is currently still under development** ⚠️
+🚨 ⚠ This project is currently still under development ⚠️ 🚨
 
 # Overview
 A fully functional Bluetooth Speaker implements most of the modern features. The goal is to have a High-performance portable Bluetooth speaker with a modern design.
@@ -196,7 +196,7 @@ The following displays the ****[USB-C](Documentation/USB-C/)**** PCB. It contain
 # Components
 
 
-🟢**Speakers**
+🔷 **Speakers**
 
 
 <p align="center">
@@ -208,7 +208,7 @@ OR
 
 [*ND65-4 2-1/2"*](https://www.parts-express.com/Dayton-Audio-ND65-4-2-1-2-Aluminum-Cone-Full-Range-Driver-290-204?quantity=1&custcol1=Dayton%20Audio%20ND65-4%202-1%2F2%22%20Aluminum%20Cone%20Full-Range%20Driver&custcol_ava_item=290-204&custcol_ava_incomeaccount=General&custcol_ava_upccode=844632081460&custcol_ava_pickup=F&custcol_disableshopping=F) **X2**
 
-🟢**Tweeters**
+🔷 **Tweeters**
 
 
 <p align="center">
@@ -217,7 +217,7 @@ OR
 
 [*ND20FA-6 3/4"*](https://www.parts-express.com/Dayton-Audio-ND20FA-6-3-4-Soft-Dome-Neodymium-Tweeter-275-030?quantity=1&custcol1=Dayton%20Audio%20ND20FA-6%203%2F4%22%20Soft%20Dome%20Neodymium%20Tweeter&custcol_ava_item=275-030&custcol_ava_incomeaccount=General&custcol_ava_upccode=844632000874&custcol_ava_pickup=F&custcol_disableshopping=F) **X2**
 
-🟢**Acousta-Stuf Polyfill**
+🔷 **Acousta-Stuf Polyfill**
 
 
 <p align="center">
@@ -228,7 +228,7 @@ OR
 
 
 
-🟢**Brass Threaded Metal**
+🔷 **Brass Threaded Metal**
 M3 3mm M3-0.5 Brass Threaded Metal Heat Set Screw Inserts for 3D Printing
 
 
