@@ -110,67 +110,74 @@ The following displays the ****[USB-C](Documentation/USB-C/)**** PCB. It contain
 
 # Working Principal
 
-**1. First, I am going to use the TPR54 to turn ON/OFF the system atmega328 [I/O_2] if it is pressed for >2s. This module can send either active High/Low signal output as desired. I will explain later why I need this specific module.**
+**1. First, I am going to use the TPR54 Touch Sensor Modules to turn ON/OFF the system, if pin [I/O-2] "TAP" it is pressed >2s. This module can send  active High signal output to the ATmega328p pin 2 [INT0].**
 	
 [![image](https://github.com/Mala2/Bluetooth-Speaker/blob/main/STL-Files/Pics/TPR54-.png?raw=true)](https://www.azoteq.com/images/stories/pdf/proxsense_gpio_trackpad_datasheet.pdf)
 
-**2. After waking up, the ATmega328 will send a high signal to turn on the LT3042 (LDO 3V3) to power the Bluetooth Module BT-806 and the TAS5825 circuitry.**
+**2. After waking up, the ATmega328 will send a high signal to turn on the Bluetooth Module BT-806 through pin [8] "Vreg" and the TAS5825 circuitry through pin [A3] "PDN".**
 
-🔸	**Startup Procedures: [I/O_2] pressed for >2s**
+🔸	**Startup Procedures: [I/O_2] "TAP" pressed for >2s**
 
-*	The atmega328 wakes up.
+*	The ATmega328p wakes up upon High signal on pin 2 [INT0].
+
+*	Send a 3V3 high signal to haptic driver to enable the IC.
+
+*       initialize the LED driver IS31FL3195 to wakeup.
 
 *	Turn on the haptic driver as an indication for 1s.
 
-*	Turn on the LED driver to reflect the current SOC% of the battery with the help of the fuel gauge.
+*	Turn on the LED driver to play a motion from left to right as wake up inication.
 
-*	Bring up power supplies to LT3042 (LDO 3V3) and load switch if used.
+*	Turn on the LED driver to reflect the current SOC% of the battery with the help of the fuel gauge MAX17320 and check whether the charger is presnt or not set the LEDs accordingly. 
 
 *	Send a 3V3 high signal of more than 100ms to Bluetooth Module BT-806 through VREG_IN (PLAY/PAUSE) pin to boot the module, then bring the signal back to low.
 
-*	Once power supplies are stable, bring up PDN of TAS5825 to High and wait 5ms (Keep in mind PDN is pulled up to 3V3 normally).
+*	Once power supplies are stable, bring up PDN of TAS5825 to High and wait 5ms.
 
-*	Set the TAS5825 into the HiZ state and enable DSP via the I2C control port.
+*	Set the Amplifier TAS5825 into the HiZ state and enable DSP via the I2C control port.
 
 *	Wait 5ms at least. Then initialize the DSP Coefficient, then set the TAS5825 to Play state.
+
+*       initialize the charger MAX77961.
+
 		
 	<br />
 	
-🔸	**Shutdown Procedures: [I/O_2] pressed for >2s**
+🔸	**Shutdown Procedures: [I/O_2] "TAP" pressed for >2s**
 
-*	Configure the Register 0x03h -D[1:0]=10 (Hiz) via the I2C control port or Pull PDN low.
+*	Configure the Register 0x03h -D[1:0]=10 (Hiz) via the I2C control port and Pull PDN low.
 
 *	Wait at least 6ms (this time depends on the LRCLK rate, digital volume, and digital volume ramp-down rate).
 
-*	Bring down power supplies LT3042 (LDO 3V3) and load switch if used.
+*	Send a 3V3 high signal of more than 100ms to Bluetooth Module BT-806 through VREG_IN (PLAY/PAUSE) pin to turn off the module, then bring the signal back to low.
 
-*	The atmega328 goes to deep sleep, waiting for the next event.
+*	The ATmega328 goes to deep sleep, waiting for the next event.
 	
 	<br />
 
 🔸	**Charging Procedures:**
 
-*	Once the charge input is present, the MAX77962 will send an interrupter either through INTB, INOKB pins
+*	Once the charge input is present, the MAX77961 will send an interrupter either through INTB, INOKB pins
 
 *	Turn on the haptic driver as an indication for 1s.
 
-*	Display the current SOC% with 4 LEDs with the help of an LED driver as long as the charge input is present.
+*	Display the current SOC% with 4 LEDs with the help of an LED driver as long as the charge input is present. Otherwaise, the ATmega328 goes to deep sleep, waiting for the next event.
 
 <br />
 	
-**3. Once the speaker is ON, the TPR54 is responsible for interacting with Bluetooth Module BT-806 to change the song and volume. (Keep in mind that the TAS5825 can also change just volume) through TX/RX UART pin between the atmega328 and Bluetooth Module BT-806 at 115200 rate data. For example: Once the atmega328 is connected to BT-806, It can send a command to change the volume. For example,**
+**3. Once the speaker is ON, the TPR54 is responsible for interacting with Bluetooth Module BT-806 to change the song and volume. (Keep in mind that the TAS5825 can also change just the volume) through TX/RX UART pin between the ATmega328 and Bluetooth Module BT-806 at 115200 rate data. For example: Once the ATmega328 is connected to BT-806, It can send a command to change the volume. For example,**
 
 ![image](https://user-images.githubusercontent.com/63622787/149187244-66467fe5-f23c-40f3-abe1-30d0a50c8069.png)
 
-**And so on. Also, if the BAT SOC is low, alert the user with an LED blinking and start the Shutdown Procedures once the BAT is too low to operate the system > 6V or 15%.**
+**And so on. Also, if the BAT SOC% is low, alert the user with an LED blinking and start the Shutdown Procedures once the BAT is too low to operate the system > 15%.**
 
 # To Do List
 
 ♦️ **Need help with software part.**
 
-✅ 1- Turns the BT806 after turning the 3v3. Sending a high signal to Vreg for > 2s upon waking up, then remain Low. (OR MOSFET NETWORK)
+1- After making sure the BT806 is OFF through the commands AT+, Turns the BT806 after turning the 3v3. Sending a high signal to Vreg for > 2s upon waking up, then remain Low. (OR MOSFET NETWORK)
 	
-✅ 2- If the battery is < 15%, shut down the speaker.
+2- If the battery is < 15%, shut down the speaker if no charging is present.
 			     
 ✅ 3- If the battery is <35%, set the MAX volume to be less than 70%. In other words, it reduces the volume to not consume more power. TAS5825 has register 0x4c and 0x54 (AGAIN or DIGITAL_VOL) to set that.
 
@@ -178,7 +185,7 @@ The following displays the ****[USB-C](Documentation/USB-C/)**** PCB. It contain
 	
 ✅ 5- For example, once the user swap to the right (Next Song). The LEDs should indicate that from left to right emotions.
 
-6- If no sounds or connection is established for 30 min, turn off the speaker. Either by checking the current flow from the fuel gauge or the BT-806 is not in play status or the TAS5825 register 0x03 is mute status for more than 30 min.
+6- If no sounds or connection is established for 30 min, turn off the speaker. Either by checking the current flow from the fuel gauge MAX17320 or the BT-806 is not in play status or the TAS5825 register 0x03 is mute status for more than 30 min.
 
 ✅ 7- If the charger is inserted, activate the haptic driver as feedback.
 
@@ -186,7 +193,7 @@ The following displays the ****[USB-C](Documentation/USB-C/)**** PCB. It contain
 
 10- Add resetFunc() after touching the middle TAP more than 10s.
 
-11- Get the header file for the TAS5825M to act as Dual stereo 2.2 and output the best sounds. You need PPC3 software and hardware access to test the setup and extract the best settings.
+11- Get the header file for the TAS5825M to act as Dual stereo 2.2 and output the best sounds. You need PPC3 software and hardware access to test the setup and extract the best DSP settings.
 
 12- Create the initialization code configuring the bq28z610 fuel gauge to work with the Arduino Uno and create a Library, and also create a “control” object for the bq28z610 fuel gauge. This includes configuring the IC’s registers via I2C to set configurations. In addition, looking to expose all features of the target ICs in code so that a user can easily configure those features using variables.
 
@@ -201,10 +208,6 @@ The following displays the ****[USB-C](Documentation/USB-C/)**** PCB. It contain
    <img src="https://www.parts-express.com/SSP%20Applications/PartsExpress@SuiteCentric/SCA%202019.1/img/290-206_HR_0.default.jpg?resizeid=106&resizeh=1200&resizew=1200)](https://www.parts-express.com/Dayton-Audio-ND65-8-2-1-2-Aluminum-Cone-Full-Range-Driver-8-290-206?gclid=CjwKCAjwkvWKBhB4EiwA-GHjFrtrRhF_nZh4KP2HR51msc4nOYF4FvnND1y967XQK91w8MbXJw41TxoC_Y0QAvD_BwE"  width=200>  
 
 [*ND65-8 2-1/2"*](https://www.parts-express.com/Dayton-Audio-ND65-8-2-1-2-Aluminum-Cone-Full-Range-Driver-8-290-206?gclid=CjwKCAjwkvWKBhB4EiwA-GHjFrtrRhF_nZh4KP2HR51msc4nOYF4FvnND1y967XQK91w8MbXJw41TxoC_Y0QAvD_BwE) **X2**
-
-OR
-
-[*ND65-4 2-1/2"*](https://www.parts-express.com/Dayton-Audio-ND65-4-2-1-2-Aluminum-Cone-Full-Range-Driver-290-204?quantity=1&custcol1=Dayton%20Audio%20ND65-4%202-1%2F2%22%20Aluminum%20Cone%20Full-Range%20Driver&custcol_ava_item=290-204&custcol_ava_incomeaccount=General&custcol_ava_upccode=844632081460&custcol_ava_pickup=F&custcol_disableshopping=F) **X2**
 
 🔷 **Tweeters**
 
