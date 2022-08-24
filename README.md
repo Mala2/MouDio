@@ -26,7 +26,7 @@
 		<img src="https://img.shields.io/github/stars/mala2/Bluetooth-Speaker?style=social" /></a>
 
 <p align="center">
-**⚠  This project is currently still under development ⚠️**
+⚠ **This project is currently still under development** ⚠️
 
 # Overview
 A fully functional Bluetooth Speaker implements most of the modern features. The goal is to have a High-performance portable Bluetooth speaker with a modern design.
