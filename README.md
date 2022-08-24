@@ -86,8 +86,10 @@ The following displays the latest Block Diagram; Things may change, and probably
 # Schematic
 
 The following displays the ****[Main](Documentation/Main/)**** PCB. It contain the **Amplifier** - 2x  Texas Instruments® **TAS5825M** and The **FSC-BT806 Feasycom**
+	
 
-[![image](https://user-images.githubusercontent.com/63622787/155482345-e0b11533-9b19-4149-a2c4-2ca03223af79.png)](https://a360.co/3FjaXoa)
+[![image](https://user-images.githubusercontent.com/63622787/186397050-d1af48ef-f59e-4407-af57-9848880f1942.png)](https://a360.co/3FjaXoa)
+
 [![image](https://user-images.githubusercontent.com/45481006/186342475-d2550cc2-e3f7-4a2f-9ba8-303a9ed3de3a.png)](https://a360.co/3FjaXoa)
 [![image](https://user-images.githubusercontent.com/45481006/186342066-af0256f1-0940-43fb-a0d6-433cbf231c21.png)](https://a360.co/3FjaXoa)
 
@@ -96,12 +98,16 @@ The following displays the ****[Main](Documentation/Main/)**** PCB. It contain t
 <p align="center">
    <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/d2fb2cd54b1a1c7008afc3e6f91d7903d9749cc6/STL-Files/Pics/line%20logo%20v3.svg"  width=1200>  
 	
-The following displays the ****[USB-C](Documentation/USB-C/)**** PCB. It contain the **MP2639** - 2S charging IC and The **ATmega328**
+The following displays the ****[USB-C](Documentation/USB-C/)**** PCB. It contain the **MAX77961** - 3S charging IC, the **MAX17320** Fuel Gauge IC and the **ATmega328**
 
-[![image](https://user-images.githubusercontent.com/63622787/155482459-88b97265-02f7-410f-854f-1922078902bf.png)](https://a360.co/3fcBBV4)
-[![image](https://user-images.githubusercontent.com/63622787/155482541-2bd08a8a-2dc6-4f6b-baf4-197b943a6eee.png)](https://a360.co/3fcBBV4)
-[![image](https://user-images.githubusercontent.com/63622787/155480244-e93962e4-1305-4c88-b8e6-c3814633a7e7.png)](https://a360.co/3fcBBV4)
-[![image](https://user-images.githubusercontent.com/63622787/155480352-2a0a0748-7e40-4480-87af-a22e0ddd7642.png)](https://a360.co/3fcBBV4)
+[![image](https://user-images.githubusercontent.com/63622787/186398323-dcc1ee98-5f41-4511-bb19-512d1ed3d003.png)](https://a360.co/3fcBBV4)
+[![image](https://user-images.githubusercontent.com/63622787/186398379-20ae01d7-946d-4484-9332-47062590ffb5.png)](https://a360.co/3fcBBV4)
+	
+[![image](https://user-images.githubusercontent.com/63622787/186395471-498f81bb-33d5-495d-afdd-343ecfce43e3.png)](https://a360.co/3fcBBV4)
+[![image](https://user-images.githubusercontent.com/63622787/186395588-ed3e99d5-7194-43a1-a2c6-ea2162a9bc72.png)](https://a360.co/3fcBBV4)
+
+	
+
 
 [📐 *View on FUSION 360*](https://a360.co/3fcBBV4)
 
