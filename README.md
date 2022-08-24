@@ -146,7 +146,7 @@ The following displays the ****[USB-C](Documentation/USB-C/)**** PCB. It contain
 	
 	<br />
 
-🔸	**Charging Procedures:
+🔸	**Charging Procedures:**
 
 *	Once the charge input is present, the MAX77962 will send an interrupter either through INTB, INOKB pins
 
