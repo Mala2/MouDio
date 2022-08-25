@@ -83,7 +83,7 @@ The following displays the latest Block Diagram; Things may change, and probably
 <p align="center">
    <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/d2fb2cd54b1a1c7008afc3e6f91d7903d9749cc6/STL-Files/Pics/line%20logo%20v3.svg"  width=1200>  
 
-# Schematic
+# Schematics
 
 The following displays the ****[Main](Documentation/Main/)**** PCB. It contain the **Amplifier** - 2x  Texas Instruments® **TAS5825M** and The **FSC-BT806 Feasycom**
 	
