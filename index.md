@@ -1,3 +1,5 @@
+import React from 'react';
+import Layout from '@theme/Layout';
 
 <p align="center">
    <img src="https://github.com/Mala2/Bluetooth-Speaker/blob/main/STL-Files/Pics/1-removebg-preview%2010.39.27%20PM.png?raw=true"  width=200>  
