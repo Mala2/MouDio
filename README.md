@@ -85,32 +85,53 @@ The following displays the latest Block Diagram; Things may change, and probably
 
 # Schematics
 
-The following displays the ****[Main](Documentation/Main/)**** PCB. It contain the **Amplifier** - 2x  Texas Instruments® **TAS5825M** and The **FSC-BT806 Feasycom**
+The following displays the ****[TOP Main](Documentation/TOP_Main/)**** PCB. It contain the Atmega328|ESP32 uC, LED Driver, Haptic Driver, RTC, Touch Sensor (TPR54|48), EEPROM*, Supervisory, Addressable LEDs
 	
+![image](https://user-images.githubusercontent.com/63622787/205257953-cc04c984-0cd3-4453-a4a4-a5c7381ed39f.png)
+	
+![image](https://user-images.githubusercontent.com/63622787/205258100-91fef7d8-6f85-478d-b2b9-72e3e4c2aff1.png)
+![image](https://user-images.githubusercontent.com/63622787/205258171-768a88d8-0153-4d4d-a95c-9c6bd6f854da.png)
 
-[![image](https://user-images.githubusercontent.com/63622787/186397050-d1af48ef-f59e-4407-af57-9848880f1942.png)]
-
-[![image](https://user-images.githubusercontent.com/45481006/186342475-d2550cc2-e3f7-4a2f-9ba8-303a9ed3de3a.png)]
-[![image](https://user-images.githubusercontent.com/45481006/186342066-af0256f1-0940-43fb-a0d6-433cbf231c21.png)]
-
-[📐 *View on FUSION 360*](https://a360.co/3FjaXoa)
+[📐 *View on FUSION 360*](https://a360.co/3FjaXoa)******
 
 <p align="center">
    <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/d2fb2cd54b1a1c7008afc3e6f91d7903d9749cc6/STL-Files/Pics/line%20logo%20v3.svg"  width=1200>  
 	
-The following displays the ****[USB-C](Documentation/USB-C/)**** PCB. It contain the **MAX77961** - 3S charging IC, the **MAX17320** Fuel Gauge IC and the **ATmega328**
+The following displays the ****[BACK Charger](Documentation/BACK_Charger/)**** PCB.It contain MAX77961 3S Charger, MAX17320 Fuel Gauge, MAX25231ATCA 5V Buck, MAX77503BEWC33 3V3 Buck, 3S Battery.
 
-[![image](https://user-images.githubusercontent.com/63622787/186398323-dcc1ee98-5f41-4511-bb19-512d1ed3d003.png)](https://a360.co/3fcBBV4)
-[![image](https://user-images.githubusercontent.com/63622787/186398379-20ae01d7-946d-4484-9332-47062590ffb5.png)](https://a360.co/3fcBBV4)
+![image](https://user-images.githubusercontent.com/63622787/205258570-6a4cc24a-7623-479a-a7d2-cd6fa71c4473.png)
 	
-[![image](https://user-images.githubusercontent.com/63622787/186395471-498f81bb-33d5-495d-afdd-343ecfce43e3.png)](https://a360.co/3fcBBV4)
-[![image](https://user-images.githubusercontent.com/63622787/186395588-ed3e99d5-7194-43a1-a2c6-ea2162a9bc72.png)](https://a360.co/3fcBBV4)
+![image](https://user-images.githubusercontent.com/63622787/205258651-e757365f-73a4-4afa-943f-e38054116621.png)
+![image](https://user-images.githubusercontent.com/63622787/205258702-95c8b73a-a0a3-4b11-bbab-3177f6f54bf7.png)
 
+[📐 *View on FUSION 360*](https://a360.co/3fcBBV4)*******
 	
 
+<p align="center">
+   <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/d2fb2cd54b1a1c7008afc3e6f91d7903d9749cc6/STL-Files/Pics/line%20logo%20v3.svg"  width=1200>  
+	
+The following displays the ****[BOTTOM Amplifier](Documentation/BOTTOM_Amplifier/)**** PCB.It contain the Amplifier - 2x Texas Instruments® TAS5825M and The FSC-BT806 Feasycom Bluetooth Moduel.
 
-[📐 *View on FUSION 360*](https://a360.co/3fcBBV4)
+![image](https://user-images.githubusercontent.com/63622787/205259174-c7367f22-2c25-42a6-954b-ad810d128e00.png)
+	
+![image](https://user-images.githubusercontent.com/63622787/205259300-dfab4e11-0d12-45d0-a1fd-49a1b6b62747.png)
+![image](https://user-images.githubusercontent.com/63622787/205259502-6c5d0c4f-b804-4309-a095-925ea3a69c1c.png)	
+[📐 *View on FUSION 360*](https://a360.co/3fcBBV4)*******	
+	
 
+<p align="center">
+   <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/d2fb2cd54b1a1c7008afc3e6f91d7903d9749cc6/STL-Files/Pics/line%20logo%20v3.svg"  width=1200>  
+	
+The following displays the ****[FRONT Speaker](Documentation/FRONT_Speaker/)**** PCB.To hold the Speakers and front acrylic grill
+
+
+![image](https://user-images.githubusercontent.com/63622787/205259718-d144ce8e-ec39-4092-a8d7-02391e73b247.png)
+	
+![image](https://user-images.githubusercontent.com/63622787/205259770-1f94ebea-87ad-4526-ba7f-9827b583c5cb.png)
+![image](https://user-images.githubusercontent.com/63622787/205259825-dc52bc25-21b0-43f9-897a-4dcf9ae00392.png)
+[📐 *View on FUSION 360*](https://a360.co/3fcBBV4)*******	
+
+	
 <p align="center">
    <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/d2fb2cd54b1a1c7008afc3e6f91d7903d9749cc6/STL-Files/Pics/line%20logo%20v3.svg"  width=1200>  	
 
