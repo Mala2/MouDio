@@ -1,9 +1,9 @@
 
 <p align="center">
-   <img src="https://github.com/Mala2/Bluetooth-Speaker/blob/main/STL-Files/Pics/1-removebg-preview%2010.39.27%20PM.png?raw=true"  width=200>  
+   <img src="https://github.com/Mala2/Moudio/blob/main/3D-Files/Pics/1-removebg-preview%2010.39.27%20PM.png?raw=true"  width=200>  
 
 <p align="center">
-   <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/cb13bf78a5724965e46d3dd32a3a264b87d806b8/3D-Files/Pics/LOGO1.svg"  width=400>  
+   <img src="https://raw.githubusercontent.com/Mala2/Moudio/5eee7f0046a20fc856ecd1f677f850bbddd510a9/3D-Files/Pics/LOGO1.svg"  width=400>  
 
 https://a360.co/3dSuCTA
 
