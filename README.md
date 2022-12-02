@@ -61,11 +61,11 @@ So far, I have built and tested PCBs as prototypes, which work as expected. The 
 
  # Repository Contents
 
-👩‍🚀 **[.STL Files ](STL-Files)** • The **Bluetooth-Speaker** components in STL format (probably what you are looking for to 3d print)
+👩‍🚀 **[.3D Files ](3D-Files)** • The **Bluetooth-Speaker** components in many formats (probably what you are looking for to 3d print)
 
 🔉 **[Hardware](Hardware)** • The internal PCBs files (Gerber, Schematic)
 
-💻 **[Software](Software)** • Codes and Libraries for use with the **Bluetooth-Speaker**
+💻 **[Software](Software)** • Codes and Libraries for use with the **MouDio**
 
 📄 **[Documentation](Documentation)** • Datasheets, other references
 
@@ -88,10 +88,10 @@ The following displays the latest Block Diagram; Things may change, and probably
 The following displays the ****[Main](Documentation/Main/)**** PCB. It contain the **Amplifier** - 2x  Texas Instruments® **TAS5825M** and The **FSC-BT806 Feasycom**
 	
 
-[![image](https://user-images.githubusercontent.com/63622787/186397050-d1af48ef-f59e-4407-af57-9848880f1942.png)](https://a360.co/3FjaXoa)
+[![image](https://user-images.githubusercontent.com/63622787/186397050-d1af48ef-f59e-4407-af57-9848880f1942.png)]
 
-[![image](https://user-images.githubusercontent.com/45481006/186342475-d2550cc2-e3f7-4a2f-9ba8-303a9ed3de3a.png)](https://a360.co/3FjaXoa)
-[![image](https://user-images.githubusercontent.com/45481006/186342066-af0256f1-0940-43fb-a0d6-433cbf231c21.png)](https://a360.co/3FjaXoa)
+[![image](https://user-images.githubusercontent.com/45481006/186342475-d2550cc2-e3f7-4a2f-9ba8-303a9ed3de3a.png)]
+[![image](https://user-images.githubusercontent.com/45481006/186342066-af0256f1-0940-43fb-a0d6-433cbf231c21.png)]
 
 [📐 *View on FUSION 360*](https://a360.co/3FjaXoa)
 
