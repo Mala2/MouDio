@@ -61,7 +61,7 @@ So far, I have built and tested PCBs as prototypes, which work as expected. The 
 
  # Repository Contents
 
-👩‍🚀 **[.3D Files ](3D-Files)** • The **Bluetooth-Speaker** components in many formats (probably what you are looking for to 3d print)
+👩‍🚀 **[3D Files ](3D-Files)** • The **Bluetooth-Speaker** components in many formats (probably what you are looking for to 3d print)
 
 🔉 **[Hardware](Hardware)** • The internal PCBs files (Gerber, Schematic)
 
