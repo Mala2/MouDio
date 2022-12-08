@@ -31,11 +31,13 @@ https://a360.co/3dSuCTA
 🚨 ⚠ This project is currently still under development ⚠️ 🚨
 
 # Overview
-A fully functional Bluetooth Speaker implements most of the modern features. The goal is to have a High-performance portable Bluetooth speaker with a modern design.
+Introducing the fully functional Bluetooth Speaker, featuring modern design and high-performance capabilities. With the choice of ATmega328P or ESP32 microcontroller at its core and compatibility with Arduino & Platformio, this portable speaker offers easy construction, allowing users to quickly and easily set it up, and the high-quality audio ensures that your music will sound great.
 
-In this speaker, I tried combining all modern features to have pure sound and the easiest method to construct it, keeping it affordable. ATmega328P microcontroller at its core, and compatibility with Arduino. Along with FSC-BT806 featuring Qualcomm® CSR8675. And as for the amplifier, 2x Texas Instruments® TAS5825M, Which has low distortion and can output 2x 30 W. 
+The speaker also boasts the Qualcomm® CSR8675 FSC-BT806 and 2x Texas Instruments® TAS5825M amplifiers, providing low distortion and powerful output of 2 x 30 W.
 
-So far, I have built and tested PCBs as prototypes, which work as expected. The hardware design is mainly done. However, the software part is still under process; and this is where I need most of the help. Please refer to the shared files for more information.
+The PCB prototypes have been built and tested, with excellent results. The hardware design is complete, and we are now focusing on the software development. We invite you to explore the shared files for more information on this exciting project.
+
+
 
 
 
