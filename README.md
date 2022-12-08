@@ -41,9 +41,11 @@ The PCB prototypes have been built and tested, with excellent results. The hardw
 
 
 
-[![image](https://user-images.githubusercontent.com/63622787/149161019-443c6ed5-2b7f-4a77-8a0c-c58f14e8bd33.png)](https://a360.co/3340jVi)
+[![image](https://github.com/Mala2/MouDio/blob/main/Documentation/Pics/Moudio_Front.png?raw=true)](https://a360.co/3340jVi)
 [![image](https://user-images.githubusercontent.com/63622787/149161185-76ba31c0-4a93-4759-8a88-698c24c4fad2.png)](https://a360.co/3340jVi)
 ![Alt Text](https://github.com/Mala2/Bluetooth-Speaker/blob/main/STL-Files/Pics/finalcut.gif?raw=true)
+
+
 
 [*🎨 View on FUSION 360*](https://a360.co/3340jVi)
 <p align="center">
