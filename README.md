@@ -3,9 +3,8 @@
    <img src="https://github.com/Mala2/Moudio/blob/main/Documentation/Pics/MASHA.png?raw=true"  width=200>  
 
 <p align="center">
-   <img src="https://raw.githubusercontent.com/Mala2/Moudio/5eee7f0046a20fc856ecd1f677f850bbddd510a9/3D-Files/Pics/LOGO1.svg"  width=400>  
-
-https://a360.co/3dSuCTA
+   <img src="https://user-images.githubusercontent.com/63622787/206340162-b0918340-178b-46ca-af71-8e91219b4fa2.png"  width=400>  
+	
 
 
 </p>
@@ -42,12 +41,9 @@ The PCB prototypes have been built and tested, with excellent results. The hardw
 
 
 [![image](https://github.com/Mala2/MouDio/blob/main/Documentation/Pics/Moudio_Front.png?raw=true)](https://a360.co/3340jVi)
-[![image](https://user-images.githubusercontent.com/63622787/149161185-76ba31c0-4a93-4759-8a88-698c24c4fad2.png)](https://a360.co/3340jVi)
-![Alt Text](https://github.com/Mala2/Bluetooth-Speaker/blob/main/STL-Files/Pics/finalcut.gif?raw=true)
 
 
-
-[*🎨 View on FUSION 360*](https://a360.co/3340jVi)
+[*🎨 View on FUSION 360*](https://a360.co/3Bk0sSi)
 <p align="center">
    <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/d2fb2cd54b1a1c7008afc3e6f91d7903d9749cc6/STL-Files/Pics/line%20logo%20v3.svg"  width=1200>  
 
@@ -97,7 +93,7 @@ The following displays the ****[TOP Main](Documentation/TOP-Main/)**** PCB. It c
 ![image](https://user-images.githubusercontent.com/63622787/205258171-768a88d8-0153-4d4d-a95c-9c6bd6f854da.png)
 ****[V1](Hardware/TOP/)****
 	
-[📐 *View on FUSION 360*](https://a360.co/3FjaXoa)******
+[📐 *View on FUSION 360*](https://a360.co/3VPY0L3)
 
 <p align="center">
    <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/d2fb2cd54b1a1c7008afc3e6f91d7903d9749cc6/STL-Files/Pics/line%20logo%20v3.svg"  width=1200>  
@@ -111,7 +107,7 @@ The following displays the ****[BACK Charger](Documentation/BACK-Charger/)**** P
 
 ****[V1](Hardware/BACK/)****
 	
-[📐 *View on FUSION 360*](https://a360.co/3fcBBV4)*******
+[📐 *View on FUSION 360*](https://a360.co/3UELmh8)
 	
 <p align="center">
    <img src="https://raw.githubusercontent.com/Mala2/Bluetooth-Speaker/d2fb2cd54b1a1c7008afc3e6f91d7903d9749cc6/STL-Files/Pics/line%20logo%20v3.svg"  width=1200>  
@@ -125,7 +121,7 @@ The following displays the ****[BOTTOM Amplifier](Documentation/BOTTOM-Amplifier
 	
 ****[V1](Hardware/BOTTOM/)****	
 	
-[📐 *View on FUSION 360*](https://a360.co/3fcBBV4)*******	
+[📐 *View on FUSION 360*](https://a360.co/3FziKBq)
 	
 
 <p align="center">
@@ -141,7 +137,7 @@ The following displays the ****[FRONT Speaker](Documentation/FRONT-Speaker/)****
 
 ****[V1](Hardware/FRONT/)****
 	
-[📐 *View on FUSION 360*](https://a360.co/3fcBBV4)*******	
+[📐 *View on FUSION 360*](https://a360.co/3BfI0KE)
 
 	
 <p align="center">
@@ -151,7 +147,9 @@ The following displays the ****[FRONT Speaker](Documentation/FRONT-Speaker/)****
 
 **1. First, I am going to use the TPR54 Touch Sensor Modules to turn ON/OFF the system, if pin [I/O-2] "TAP" it is pressed >2s. This module can send  active High signal output to the ATmega328p pin 2 [INT0].**
 	
-[![image](https://github.com/Mala2/Bluetooth-Speaker/blob/main/STL-Files/Pics/TPR54-.png?raw=true)](https://www.azoteq.com/images/stories/pdf/proxsense_gpio_trackpad_datasheet.pdf)
+	
+	
+[![image](https://github.com/Mala2/MouDio/blob/main/Documentation/Pics/TPR54-.png?raw=true)](https://www.azoteq.com/images/stories/pdf/proxsense_gpio_trackpad_datasheet.pdf)
 
 **2. After waking up, the ATmega328 will send a high signal to turn on the Bluetooth Module BT-806 through pin [8] "Vreg" and the TAS5825 circuitry through pin [A3] "PDN".**
 
