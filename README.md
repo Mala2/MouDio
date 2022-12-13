@@ -28,6 +28,15 @@
 <p align="center">
 🚨 ⚠ This project is currently still under development ⚠️ 🚨
 
+<p align="center">
+   <img src="https://github.com/Mala2/MouDio/blob/main/Documentation/Pics/website-icon.png?raw=true"  width=80 >  
+   
+<p align="center">
+(https://mala2.github.io/Moudio-docs/)
+</p>
+
+
+
 # Overview
 Introducing the fully functional Bluetooth Speaker, featuring modern design and high-performance capabilities. With the choice of ATmega328P or ESP32 microcontroller at its core and compatibility with Arduino & Platformio, this portable speaker offers easy construction, allowing users to quickly and easily set it up, and the high-quality audio ensures that your music will sound great.
 
