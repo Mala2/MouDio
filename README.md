@@ -1,6 +1,5 @@
 
-<p align="center">
-   <img src="https://github.com/Mala2/Moudio/blob/main/Documentation/Pics/MASHA.png?raw=true"  width=200>  
+
 
 <p align="center">
    <img src="https://user-images.githubusercontent.com/63622787/206340162-b0918340-178b-46ca-af71-8e91219b4fa2.png"  width=400>  
